@@ -1,13 +1,13 @@
-![Logo](docs/Images/Skoruba.Duende.IdentityServer.Admin-Logo-ReadMe.png)
+![Logo](docs/Images/PrinceHarry.Duende.IdentityServer.Admin-Logo-ReadMe.png)
 
-# Skoruba.Duende.IdentityServer.Admin ⚡
+# PrinceHarry.Duende.IdentityServer.Admin ⚡
 
 > The administration for the Duende IdentityServer and Asp.Net Core Identity
 
 ## Project Status
 
-[![Build status](https://ci.appveyor.com/api/projects/status/563ug5gcxk904m6g/branch/main?svg=true)](https://ci.appveyor.com/project/JanSkoruba/duende-identityserver-admin/branch/main)
-[![Build status](https://img.shields.io/badge/Discord-Skoruba-%235865F2)](https://discord.gg/qTqQCSKWkX)
+[![Build status](https://ci.appveyor.com/api/projects/status/563ug5gcxk904m6g/branch/main?svg=true)](https://ci.appveyor.com/project/JanPrinceHarry/duende-identityserver-admin/branch/main)
+[![Build status](https://img.shields.io/badge/Discord-PrinceHarry-%235865F2)](https://discord.gg/qTqQCSKWkX)
 
 The application is written in the **Asp.Net Core MVC - using .NET 8.0**
 
@@ -22,13 +22,13 @@ The application is written in the **Asp.Net Core MVC - using .NET 8.0**
 - 🔒 **NOTE:** The project uses the default database migrations which affect your database, therefore double check the migrations according to your database provider and create a database backup
 
 ```sh
-dotnet new install Skoruba.Duende.IdentityServer.Admin.Templates::2.5.0
+dotnet new install PrinceHarry.Duende.IdentityServer.Admin.Templates::2.5.0
 ```
 
 ### Create new project:
 
 ```sh
-dotnet new skoruba.duende.isadmin --name MyProject --title MyProject --adminemail "admin@example.com" --adminpassword "Pa$$word123" --adminrole MyRole --adminclientid MyClientId --adminclientsecret MyClientSecret --dockersupport true
+dotnet new PrinceHarry.duende.isadmin --name MyProject --title MyProject --adminemail "admin@example.com" --adminpassword "Pa$$word123" --adminrole MyRole --adminclientid MyClientId --adminclientsecret MyClientSecret --dockersupport true
 ```
 
 Project template options:
@@ -50,14 +50,14 @@ Project template options:
 
 ### Template uses following list of nuget packages
 
-- [Available nuget packages](https://www.nuget.org/profiles/skoruba)
+- [Available nuget packages](https://www.nuget.org/profiles/PrinceHarry)
 
 ### Running in Visual Studio
 
 - Set Startup projects:
-  - Skoruba.Duende.IdentityServer.Admin
-  - Skoruba.Duende.IdentityServer.Admin.Api
-  - Skoruba.Duende.IdentityServer.STS.Identity
+  - PrinceHarry.Duende.IdentityServer.Admin
+  - PrinceHarry.Duende.IdentityServer.Admin.Api
+  - PrinceHarry.Duende.IdentityServer.STS.Identity
 
 ## Configuration of Administration for Deployment
 
@@ -70,24 +70,24 @@ Project template options:
 
 ### Admin UI - Light mode 🌞
 
-![Admin-preview](docs/Images/App/Skoruba-Home-Preview.PNG)
+![Admin-preview](docs/Images/App/PrinceHarry-Home-Preview.PNG)
 
 ### Admin UI - Dark mode 🌙
 
-![Admin-preview](docs/Images/App/Skoruba-Home-Preview-Dark.PNG)
+![Admin-preview](docs/Images/App/PrinceHarry-Home-Preview-Dark.PNG)
 
 ### Security token service (STS)
 
-![Admin-preview](docs/Images/App/Skoruba-STS-Home-Preview.PNG)
+![Admin-preview](docs/Images/App/PrinceHarry-STS-Home-Preview.PNG)
 
 ### Forms:
 
-![Admin-preview-form](docs/Images/App/Skoruba-Forms-Preview.PNG)
+![Admin-preview-form](docs/Images/App/PrinceHarry-Forms-Preview.PNG)
 
 ## Cloning
 
 ```sh
-git clone https://github.com/skoruba/Duende.IdentityServer.Admin
+git clone https://github.com/PrinceHarry/Duende.IdentityServer.Admin
 ```
 
 ## Running via Docker
@@ -98,9 +98,9 @@ git clone https://github.com/skoruba/Duende.IdentityServer.Admin
 
 ### DNS
 
-We need some resolving capabilities in order for the project to work. The domain `skoruba.local` is used here to represent the domain this setup is hosted on. The domain-name needs to be FQDN (fully qualified domain name).
+We need some resolving capabilities in order for the project to work. The domain `PrinceHarry.local` is used here to represent the domain this setup is hosted on. The domain-name needs to be FQDN (fully qualified domain name).
 
-Thus first, we need the domain `skoruba.local` to resolve to the docker-host machine. If you want this to work on your local machine only, use the first option.
+Thus first, we need the domain `PrinceHarry.local` to resolve to the docker-host machine. If you want this to work on your local machine only, use the first option.
 
 #### DNS on docker-host machine only
 
@@ -112,10 +112,10 @@ Edit your hosts file:
 and add the following entries:
 
 ```custom
-127.0.0.1 skoruba.local sts.skoruba.local admin.skoruba.local admin-api.skoruba.local
+127.0.0.1 PrinceHarry.local sts.PrinceHarry.local admin.PrinceHarry.local admin-api.PrinceHarry.local
 ```
 
-This way your host machine resolves `skoruba.local` and its subdomains to itself.
+This way your host machine resolves `PrinceHarry.local` and its subdomains to itself.
 
 ### Certificates
 
@@ -138,14 +138,14 @@ copy $env:LOCALAPPDATA\mkcert\rootCA-key.pem ./cacerts.pem
 copy $env:LOCALAPPDATA\mkcert\rootCA.pem ./cacerts.crt
 ```
 
-##### Create the `skoruba.local` certificates
+##### Create the `PrinceHarry.local` certificates
 
-Generate a certificate for `skoruba.local` with wildcards for the subdomains. The name of the certificate files need to match with actual domain-names in order for the nginx-proxy to pick them up correctly. We want both the crt-key and the pfx version.
+Generate a certificate for `PrinceHarry.local` with wildcards for the subdomains. The name of the certificate files need to match with actual domain-names in order for the nginx-proxy to pick them up correctly. We want both the crt-key and the pfx version.
 
 ```bash
 cd shared/nginx/certs
-mkcert -cert-file skoruba.local.crt -key-file skoruba.local.key skoruba.local *.skoruba.local
-mkcert -pkcs12 skoruba.local.pfx skoruba.local *.skoruba.local
+mkcert -cert-file PrinceHarry.local.crt -key-file PrinceHarry.local.key PrinceHarry.local *.PrinceHarry.local
+mkcert -pkcs12 PrinceHarry.local.pfx PrinceHarry.local *.PrinceHarry.local
 ```
 
 ##### This docker setup is come from this [repository](https://github.com/bravecobra/identityserver-ui) - thanks to [bravecobra](https://github.com/bravecobra). 😊
@@ -164,7 +164,7 @@ docker-compose up -d
 
 ### Docker images
 
-- Docker images will be available also in [docker hub](https://hub.docker.com/u/skoruba)
+- Docker images will be available also in [docker hub](https://hub.docker.com/u/PrinceHarry)
 
 ### Publish Docker images to Docker hub
 
@@ -173,10 +173,10 @@ docker-compose up -d
 ## Installation of the Client Libraries
 
 ```sh
-cd src/Skoruba.Duende.IdentityServer.Admin
+cd src/PrinceHarry.Duende.IdentityServer.Admin
 npm install
 
-cd src/Skoruba.Duende.IdentityServer.STS.Identity
+cd src/PrinceHarry.Duende.IdentityServer.STS.Identity
 npm install
 ```
 
@@ -321,7 +321,7 @@ The you need specify the key identifier in configuration:
     "MinimumLevel": {
       "Default": "Error",
       "Override": {
-        "Skoruba": "Information"
+        "PrinceHarry": "Information"
       }
     },
     "WriteTo": [
@@ -353,7 +353,7 @@ The you need specify the key identifier in configuration:
 
 ## Audit Logging
 
-- This solution uses audit logging via - https://github.com/skoruba/AuditLogging (check this link for more detal about this implementation :blush:)
+- This solution uses audit logging via - https://github.com/PrinceHarry/AuditLogging (check this link for more detal about this implementation :blush:)
 - In the Admin UI project is following setup:
 
 ```cs
@@ -395,8 +395,8 @@ You can also use your custom theme by integrating it in your project or hosting 
 
 ```json
   "AdminConfiguration": {
-    "PageTitle": "Skoruba Duende IdentityServer",
-    "HomePageLogoUri": "~/images/skoruba-icon.png",
+    "PageTitle": "PrinceHarry Duende IdentityServer",
+    "HomePageLogoUri": "~/images/PrinceHarry-icon.png",
     "FaviconUri": "~/favicon.ico",
     "Theme": "united",
     "CustomThemeCss": null,
@@ -417,7 +417,7 @@ In `appsettings.json` is following configuration:
   }
 ```
 
-The `Skoruba.Duende.IdentityServer.Admin.BusinessLogic` layer contains folder called `Events` for audit logging. In each method in Services is called function `LogEventAsync` like this:
+The `PrinceHarry.Duende.IdentityServer.Admin.BusinessLogic` layer contains folder called `Events` for audit logging. In each method in Services is called function `LogEventAsync` like this:
 
 ```
 await AuditEventLogger.LogEventAsync(new ClientDeletedEvent(client));
@@ -427,7 +427,7 @@ Final audit log is available in the table `dbo.AuditLog`.
 
 ### Login Configuration
 
-- In `Skoruba.Duende.IdentityServer.STS.Identity` - in `appsettings.json` is possible to specify which column will be used for login (`Username` or `Email`):
+- In `PrinceHarry.Duende.IdentityServer.STS.Identity` - in `appsettings.json` is possible to specify which column will be used for login (`Username` or `Email`):
 
 ```
   "LoginConfiguration": {
@@ -445,7 +445,7 @@ or using `Email`:
 
 ### Register Configuration
 
-- In `Skoruba.Duende.IdentityServer.STS.Identity` - in `appsettings.json` is possible to disable user registration (`default: true`):
+- In `PrinceHarry.Duende.IdentityServer.STS.Identity` - in `appsettings.json` is possible to disable user registration (`default: true`):
 
 ```
  "RegisterConfiguration": {
@@ -461,8 +461,8 @@ or using `Email`:
 ```
 "AdminApiConfiguration": {
   "IdentityServerBaseUrl": "https://localhost:44310",
-  "OidcSwaggerUIClientId": "skoruba_identity_admin_api_swaggerui",
-  "OidcApiName": "skoruba_identity_admin_api"
+  "OidcSwaggerUIClientId": "PrinceHarry_identity_admin_api_swaggerui",
+  "OidcApiName": "PrinceHarry_identity_admin_api"
 }
 ```
 
@@ -472,7 +472,7 @@ or using `Email`:
 
 ## How to configure an external provider in STS
 
-- In `Skoruba.Duende.IdentityServer.STS.Identity/Helpers/StartupHelpers.cs` - is method called `AddExternalProviders` which contains the example with `GitHub`, `AzureAD` configured in `appsettings.json`:
+- In `PrinceHarry.Duende.IdentityServer.STS.Identity/Helpers/StartupHelpers.cs` - is method called `AddExternalProviders` which contains the example with `GitHub`, `AzureAD` configured in `appsettings.json`:
 
 ```
 "ExternalProvidersConfiguration": {
@@ -585,57 +585,57 @@ Integration tests use StartupTest class which is pre-configured with:
 
 - STS:
 
-  - `Skoruba.Duende.IdentityServer.STS.Identity` - project that contains the instance of Duende.IdentityServer and combine these samples - [Quickstart UI for the Duende.IdentityServer with Asp.Net Core Identitye](https://github.com/DuendeSoftware/IdentityServer/tree/main/hosts/AspNetIdentity) and [Quickstart UI for the Duende.IdentityServer with EF Core storage](https://github.com/DuendeSoftware/IdentityServer/tree/main/hosts/EntityFramework) and [damienbod - IdentityServer4 and Identity template](https://github.com/damienbod/IdentityServer4AspNetCoreIdentityTemplate)
+  - `PrinceHarry.Duende.IdentityServer.STS.Identity` - project that contains the instance of Duende.IdentityServer and combine these samples - [Quickstart UI for the Duende.IdentityServer with Asp.Net Core Identitye](https://github.com/DuendeSoftware/IdentityServer/tree/main/hosts/AspNetIdentity) and [Quickstart UI for the Duende.IdentityServer with EF Core storage](https://github.com/DuendeSoftware/IdentityServer/tree/main/hosts/EntityFramework) and [damienbod - IdentityServer4 and Identity template](https://github.com/damienbod/IdentityServer4AspNetCoreIdentityTemplate)
 
 - Admin UI Api:
 
-  - `Skoruba.Duende.IdentityServer.Admin.Api` - project with Api for managing data of Duende.IdentityServer and Asp.Net Core Identity, with swagger support as well
+  - `PrinceHarry.Duende.IdentityServer.Admin.Api` - project with Api for managing data of Duende.IdentityServer and Asp.Net Core Identity, with swagger support as well
 
 - Admin UI:
 
-  - `Skoruba.Duende.IdentityServer.Admin.UI` - ASP.NET Core MVC application that contains Admin UI
+  - `PrinceHarry.Duende.IdentityServer.Admin.UI` - ASP.NET Core MVC application that contains Admin UI
 
-  - `Skoruba.Duende.IdentityServer.Admin` - ASP.NET Core MVC application that uses Admin UI package and it's only for application bootstrap
+  - `PrinceHarry.Duende.IdentityServer.Admin` - ASP.NET Core MVC application that uses Admin UI package and it's only for application bootstrap
 
-  - `Skoruba.Duende.IdentityServer.Admin.BusinessLogic` - project that contains Dtos, Repositories, Services and Mappers for the Duende.IdentityServer
+  - `PrinceHarry.Duende.IdentityServer.Admin.BusinessLogic` - project that contains Dtos, Repositories, Services and Mappers for the Duende.IdentityServer
 
-  - `Skoruba.Duende.IdentityServer.Admin.BusinessLogic.Identity` - project that contains Dtos, Repositories, Services and Mappers for the Asp.Net Core Identity
+  - `PrinceHarry.Duende.IdentityServer.Admin.BusinessLogic.Identity` - project that contains Dtos, Repositories, Services and Mappers for the Asp.Net Core Identity
 
-  - `Skoruba.Duende.IdentityServer.Admin.BusinessLogic.Shared` - project that contains shared Dtos and ExceptionHandling for the Business Logic layer of the Duende.IdentityServer and Asp.Net Core Identity
+  - `PrinceHarry.Duende.IdentityServer.Admin.BusinessLogic.Shared` - project that contains shared Dtos and ExceptionHandling for the Business Logic layer of the Duende.IdentityServer and Asp.Net Core Identity
 
-  - `Skoruba.Duende.IdentityServer.Shared` - Shared common Identity DTOS for Admin UI, Admin UI Api and STS
+  - `PrinceHarry.Duende.IdentityServer.Shared` - Shared common Identity DTOS for Admin UI, Admin UI Api and STS
 
-  - `Skoruba.Duende.IdentityServer.Shared.Configuration` - Shared common layer for Admin UI, Admin UI Api and STS
+  - `PrinceHarry.Duende.IdentityServer.Shared.Configuration` - Shared common layer for Admin UI, Admin UI Api and STS
 
-  - `Skoruba.Duende.IdentityServer.Admin.EntityFramework` - EF Core data layer that contains Entities for the Duende.IdentityServer
+  - `PrinceHarry.Duende.IdentityServer.Admin.EntityFramework` - EF Core data layer that contains Entities for the Duende.IdentityServer
 
-  - `Skoruba.Duende.IdentityServer.Admin.EntityFramework.Configuration` - EF Core data layer that contains configurations
+  - `PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Configuration` - EF Core data layer that contains configurations
 
-  - `Skoruba.Duende.IdentityServer.Admin.EntityFramework.Identity` - EF Core data layer that contains Repositories for the Asp.Net Core Identity
+  - `PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Identity` - EF Core data layer that contains Repositories for the Asp.Net Core Identity
 
-  - `Skoruba.Duende.IdentityServer.Admin.EntityFramework.Extensions` - project that contains extensions related to EntityFramework
+  - `PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Extensions` - project that contains extensions related to EntityFramework
 
-  - `Skoruba.Duende.IdentityServer.Admin.EntityFramework.Shared` - project that contains DbContexts for the Duende.IdentityServer, Logging and Asp.Net Core Identity, inluding shared Identity entities
+  - `PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Shared` - project that contains DbContexts for the Duende.IdentityServer, Logging and Asp.Net Core Identity, inluding shared Identity entities
 
-  - `Skoruba.Duende.IdentityServer.Admin.EntityFramework.SqlServer` - project that contains migrations for SqlServer
+  - `PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.SqlServer` - project that contains migrations for SqlServer
 
-  - `Skoruba.Duende.IdentityServer.Admin.EntityFramework.MySql` - project that contains migrations for MySql
+  - `PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.MySql` - project that contains migrations for MySql
 
-  - `Skoruba.Duende.IdentityServer.Admin.EntityFramework.PostgreSQL` - project that contains migrations for PostgreSQL
+  - `PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.PostgreSQL` - project that contains migrations for PostgreSQL
 
 - Tests:
 
-  - `Skoruba.Duende.IdentityServer.Admin.IntegrationTests` - xUnit project that contains the integration tests for AdminUI
+  - `PrinceHarry.Duende.IdentityServer.Admin.IntegrationTests` - xUnit project that contains the integration tests for AdminUI
 
-  - `Skoruba.Duende.IdentityServer.Admin.Api.IntegrationTests` - xUnit project that contains the integration tests for AdminUI Api
+  - `PrinceHarry.Duende.IdentityServer.Admin.Api.IntegrationTests` - xUnit project that contains the integration tests for AdminUI Api
 
-  - `Skoruba.Duende.IdentityServer.Admin.UnitTests` - xUnit project that contains the unit tests for AdminUI
+  - `PrinceHarry.Duende.IdentityServer.Admin.UnitTests` - xUnit project that contains the unit tests for AdminUI
 
-  - `Skoruba.Duende.IdentityServer.STS.IntegrationTests` - xUnit project that contains the integration tests for STS
+  - `PrinceHarry.Duende.IdentityServer.STS.IntegrationTests` - xUnit project that contains the integration tests for STS
 
 ### The admininistration contains the following sections:
 
-![Skoruba.Duende.IdentityServer.Admin App](docs/Images/Skoruba.Duende.IdentityServer.Admin-Solution.png)
+![PrinceHarry.Duende.IdentityServer.Admin App](docs/Images/PrinceHarry.Duende.IdentityServer.Admin-Solution.png)
 
 ## Duende.IdentityServer
 
@@ -696,7 +696,7 @@ It is possible to define the configuration according the client type - by defaul
 
 ## Application Diagram
 
-![Skoruba.Duende.IdentityServer.Admin Diagram](docs/Images/Skoruba.Duende.IdentityServer.Admin-App-Diagram.png)
+![PrinceHarry.Duende.IdentityServer.Admin Diagram](docs/Images/PrinceHarry.Duende.IdentityServer.Admin-App-Diagram.png)
 
 ## Roadmap & Vision
 
@@ -730,16 +730,16 @@ It is possible to define the configuration according the client type - by defaul
   - [x] Duende.IdentityServer
   - [x] Asp.Net Core Identity
   - [x] Add swagger support
-- [x] Add audit logs to track changes ([#61](https://github.com/skoruba/IdentityServer4.Admin/issues/61))
-- [x] Docker support ([#121](https://github.com/skoruba/IdentityServer4.Admin/issues/121))
+- [x] Add audit logs to track changes ([#61](https://github.com/PrinceHarry/IdentityServer4.Admin/issues/61))
+- [x] Docker support ([#121](https://github.com/PrinceHarry/IdentityServer4.Admin/issues/121))
 - [x] Health Checks (Databases and IdentityServer)
 - [x] Support for multiple database providers (SqlServer, Mysql, PostgreSQL)
-- [x] Simplify Admin Identity middleware ([#430](https://github.com/skoruba/IdentityServer4.Admin/issues/430))
-- [x] Add support for loading signing key from Azure Key Vault ([#533](https://github.com/skoruba/IdentityServer4.Admin/issues/533))
-- [x] Protect keys for dataprotection from Azure Key Vault ([#715](https://github.com/skoruba/IdentityServer4.Admin/pull/715))
-- [x] Update to Duende.IdentityServer version 4 ([#633](https://github.com/skoruba/IdentityServer4.Admin/issues/633))
-- [x] Add support for themes ([#725](https://github.com/skoruba/IdentityServer4.Admin/issues/725))
-- [x] Extract UI part into nuget package ([#770](https://github.com/skoruba/IdentityServer4.Admin/issues/770), [#409](https://github.com/skoruba/IdentityServer4.Admin/issues/409), [#55](https://github.com/skoruba/IdentityServer4.Admin/issues/55), [#322](https://github.com/skoruba/IdentityServer4.Admin/issues/322), [#28](https://github.com/skoruba/IdentityServer4.Admin/issues/28), [#133](https://github.com/skoruba/IdentityServer4.Admin/issues/133))
+- [x] Simplify Admin Identity middleware ([#430](https://github.com/PrinceHarry/IdentityServer4.Admin/issues/430))
+- [x] Add support for loading signing key from Azure Key Vault ([#533](https://github.com/PrinceHarry/IdentityServer4.Admin/issues/533))
+- [x] Protect keys for dataprotection from Azure Key Vault ([#715](https://github.com/PrinceHarry/IdentityServer4.Admin/pull/715))
+- [x] Update to Duende.IdentityServer version 4 ([#633](https://github.com/PrinceHarry/IdentityServer4.Admin/issues/633))
+- [x] Add support for themes ([#725](https://github.com/PrinceHarry/IdentityServer4.Admin/issues/725))
+- [x] Extract UI part into nuget package ([#770](https://github.com/PrinceHarry/IdentityServer4.Admin/issues/770), [#409](https://github.com/PrinceHarry/IdentityServer4.Admin/issues/409), [#55](https://github.com/PrinceHarry/IdentityServer4.Admin/issues/55), [#322](https://github.com/PrinceHarry/IdentityServer4.Admin/issues/322), [#28](https://github.com/PrinceHarry/IdentityServer4.Admin/issues/28), [#133](https://github.com/PrinceHarry/IdentityServer4.Admin/issues/133))
 
 ### 1.1.0
 
@@ -753,25 +753,25 @@ It is possible to define the configuration according the client type - by defaul
 
 ### 2.0.0
 
-- [x] Update to .NET 8 ([#180](https://github.com/skoruba/Duende.IdentityServer.Admin/issues/180))
-- [x] Update to IdentityServer v7 ([#181](https://github.com/skoruba/Duende.IdentityServer.Admin/issues/181))
+- [x] Update to .NET 8 ([#180](https://github.com/PrinceHarry/Duende.IdentityServer.Admin/issues/180))
+- [x] Update to IdentityServer v7 ([#181](https://github.com/PrinceHarry/Duende.IdentityServer.Admin/issues/181))
 
 ### 2.1.0
 
-- [x] Role users pagination ([#169](https://github.com/skoruba/Duende.IdentityServer.Admin/issues/169))
-- [x] Add secure secret generation with 'secret\_' prefix ([#153](https://github.com/skoruba/Duende.IdentityServer.Admin/issues/153))
-- [x] Increase client name prominence ([#154](https://github.com/skoruba/Duende.IdentityServer.Admin/issues/154))
-- [x] Added support for generation typescript client definition for API endpoints ([#215](https://github.com/skoruba/Duende.IdentityServer.Admin/issues/215))
-- [x] Add new endpoints to API for client, api resource, api scopes validations and lists ([#213](https://github.com/skoruba/Duende.IdentityServer.Admin/issues/213))
+- [x] Role users pagination ([#169](https://github.com/PrinceHarry/Duende.IdentityServer.Admin/issues/169))
+- [x] Add secure secret generation with 'secret\_' prefix ([#153](https://github.com/PrinceHarry/Duende.IdentityServer.Admin/issues/153))
+- [x] Increase client name prominence ([#154](https://github.com/PrinceHarry/Duende.IdentityServer.Admin/issues/154))
+- [x] Added support for generation typescript client definition for API endpoints ([#215](https://github.com/PrinceHarry/Duende.IdentityServer.Admin/issues/215))
+- [x] Add new endpoints to API for client, api resource, api scopes validations and lists ([#213](https://github.com/PrinceHarry/Duende.IdentityServer.Admin/issues/213))
 
-- [x] Use named arguments in .AddIdentityServer() healthchecks ([#201](https://github.com/skoruba/Duende.IdentityServer.Admin/issues/201))
-- [x] Change the AdminIdentityDbContext tablenames to be derived from appsettings ([#196](https://github.com/skoruba/Duende.IdentityServer.Admin/issues/196))
-- [x] Raise UserLoginSuccessEvent when logging in with 2fa or recovery code ([#202](https://github.com/skoruba/Duende.IdentityServer.Admin/issues/202))
+- [x] Use named arguments in .AddIdentityServer() healthchecks ([#201](https://github.com/PrinceHarry/Duende.IdentityServer.Admin/issues/201))
+- [x] Change the AdminIdentityDbContext tablenames to be derived from appsettings ([#196](https://github.com/PrinceHarry/Duende.IdentityServer.Admin/issues/196))
+- [x] Raise UserLoginSuccessEvent when logging in with 2fa or recovery code ([#202](https://github.com/PrinceHarry/Duende.IdentityServer.Admin/issues/202))
 
 ### 2.2.2
 
-- [x] Create a New Project `Skoruba.Duende.IdentityServer.Admin.UI.Api` to be Shipped as a NuGet Package
-- [x] Fix DockerFile for All Projects for Multiplatform Builds `(linux/amd64, linux/arm64)` ([#194](https://github.com/skoruba/Duende.IdentityServer.Admin/issues/194))
+- [x] Create a New Project `PrinceHarry.Duende.IdentityServer.Admin.UI.Api` to be Shipped as a NuGet Package
+- [x] Fix DockerFile for All Projects for Multiplatform Builds `(linux/amd64, linux/arm64)` ([#194](https://github.com/PrinceHarry/Duende.IdentityServer.Admin/issues/194))
 - [x] Add a New API Endpoint for Dashboard View
 - [x] Fix Import of dayjs for NSwag TypeScript Definition
 
@@ -782,25 +782,25 @@ It is possible to define the configuration according the client type - by defaul
 
 ### 2.4.0
 
-- [x] Method CanInsert..Property of the controllers always return true ([#235](https://github.com/skoruba/Duende.IdentityServer.Admin/issues/235))
-- [x] Skoruba.Duende.IdentityServer.Shared.Configuration - replace deprecated Microsoft.Extensions.Configuration.AzureKeyVault package with Azure.Extensions.AspNetCore.Configuration.Secrets ([#234](https://github.com/skoruba/Duende.IdentityServer.Admin/issues/234))
-- [x] Can't update client because "Client Id _clientId_ already exists" ([#227](https://github.com/skoruba/Duende.IdentityServer.Admin/issues/227))
-- [x] Migrate from Microsoft.Azure.KeyVault to the new Azure Key Vault API ([#224](https://github.com/skoruba/Duende.IdentityServer.Admin/issues/224))
-- [x] Docker Compose NGINX targeting wrong port ([#222](https://github.com/skoruba/Duende.IdentityServer.Admin/issues/222))
-- [x] Update all nuget packages to the latest versions, including Duende IdentityServer version 7.0.7. (fixed [CVE-2024-39694](https://github.com/advisories/GHSA-ff4q-64jc-gx98)) - ([#236](https://github.com/skoruba/Duende.IdentityServer.Admin/issues/236))
+- [x] Method CanInsert..Property of the controllers always return true ([#235](https://github.com/PrinceHarry/Duende.IdentityServer.Admin/issues/235))
+- [x] PrinceHarry.Duende.IdentityServer.Shared.Configuration - replace deprecated Microsoft.Extensions.Configuration.AzureKeyVault package with Azure.Extensions.AspNetCore.Configuration.Secrets ([#234](https://github.com/PrinceHarry/Duende.IdentityServer.Admin/issues/234))
+- [x] Can't update client because "Client Id _clientId_ already exists" ([#227](https://github.com/PrinceHarry/Duende.IdentityServer.Admin/issues/227))
+- [x] Migrate from Microsoft.Azure.KeyVault to the new Azure Key Vault API ([#224](https://github.com/PrinceHarry/Duende.IdentityServer.Admin/issues/224))
+- [x] Docker Compose NGINX targeting wrong port ([#222](https://github.com/PrinceHarry/Duende.IdentityServer.Admin/issues/222))
+- [x] Update all nuget packages to the latest versions, including Duende IdentityServer version 7.0.7. (fixed [CVE-2024-39694](https://github.com/advisories/GHSA-ff4q-64jc-gx98)) - ([#236](https://github.com/PrinceHarry/Duende.IdentityServer.Admin/issues/236))
 
 ### 2.5.0
 
-- [x] Delete user from admin panel of admin app returns an error ([#214](https://github.com/skoruba/Duende.IdentityServer.Admin/issues/214))
+- [x] Delete user from admin panel of admin app returns an error ([#214](https://github.com/PrinceHarry/Duende.IdentityServer.Admin/issues/214))
 
 ### 3.0.0
 
-- [ ] New UI in React and Typescript ([#182](https://github.com/skoruba/Duende.IdentityServer.Admin/issues/182))
-- [ ] Add wizard for client registration ([#18](https://github.com/skoruba/Duende.IdentityServer.Admin/issues/18))
+- [ ] New UI in React and Typescript ([#182](https://github.com/PrinceHarry/Duende.IdentityServer.Admin/issues/182))
+- [ ] Add wizard for client registration ([#18](https://github.com/PrinceHarry/Duende.IdentityServer.Admin/issues/18))
 
 ### 3.1.0
 
-- [ ] Add management for claims ([#22](https://github.com/skoruba/Duende.IdentityServer.Admin/issues/22))
+- [ ] Add management for claims ([#22](https://github.com/PrinceHarry/Duende.IdentityServer.Admin/issues/22))
 
 ### Future:
 
@@ -841,7 +841,7 @@ Thanks to [Dominick Baier](https://github.com/leastprivilege) and [Brock Allen](
 Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key)):
 
 <!-- prettier-ignore-start -->
-| [<img src="https://avatars3.githubusercontent.com/u/35664089?s=460&v=3" width="100px;"/><br /><sub> Jan Škoruba</sub>](https://github.com/skoruba) <br /> 💻 💬 📖 💡 🤔 | [<img src="https://avatars0.githubusercontent.com/u/6831144?s=460&v=3" width="100px;"/><br /><sub> Tomáš Hübelbauer</sub>](https://github.com/TomasHubelbauer) <br /> 💻 👀 📖  🤔 | [<img src="https://avatars0.githubusercontent.com/u/1004852?s=460&v=3" width="100px;"/><br /><sub>Michał Drzał </sub>](https://github.com/xmichaelx) <br />💻 👀 📖 💡 🤔 | [<img src="https://avatars0.githubusercontent.com/u/2261603?s=460&v=3" width="100px;"/><br /><sub>cerginio </sub>](https://github.com/cerginio) <br /> 💻 🐛 💡 🤔 | [<img src="https://avatars3.githubusercontent.com/u/13407080?s=460&v=3" width="100px;"/><br /><sub>Sven Dummis </sub>](https://github.com/svendu) <br /> 📖| [<img src="https://avatars1.githubusercontent.com/u/1687087?s=460&v=3" width="100px;"/><br /><sub>Seaear</sub>](https://github.com/Seaear) <br />💻 🌍|
+| [<img src="https://avatars3.githubusercontent.com/u/35664089?s=460&v=3" width="100px;"/><br /><sub> Jan Škoruba</sub>](https://github.com/PrinceHarry) <br /> 💻 💬 📖 💡 🤔 | [<img src="https://avatars0.githubusercontent.com/u/6831144?s=460&v=3" width="100px;"/><br /><sub> Tomáš Hübelbauer</sub>](https://github.com/TomasHubelbauer) <br /> 💻 👀 📖  🤔 | [<img src="https://avatars0.githubusercontent.com/u/1004852?s=460&v=3" width="100px;"/><br /><sub>Michał Drzał </sub>](https://github.com/xmichaelx) <br />💻 👀 📖 💡 🤔 | [<img src="https://avatars0.githubusercontent.com/u/2261603?s=460&v=3" width="100px;"/><br /><sub>cerginio </sub>](https://github.com/cerginio) <br /> 💻 🐛 💡 🤔 | [<img src="https://avatars3.githubusercontent.com/u/13407080?s=460&v=3" width="100px;"/><br /><sub>Sven Dummis </sub>](https://github.com/svendu) <br /> 📖| [<img src="https://avatars1.githubusercontent.com/u/1687087?s=460&v=3" width="100px;"/><br /><sub>Seaear</sub>](https://github.com/Seaear) <br />💻 🌍|
 | :---: | :---: | :---: | :---: | :---: | :---: |
 |[<img src="https://avatars1.githubusercontent.com/u/1150473?s=460&v=3" width="118px;"/><br /><sub>Rune Antonsen </sub>](https://github.com/ruant) <br />🐛|[<img src="https://avatars1.githubusercontent.com/u/5537607?s=460&v=3" width="118px;"/><br /><sub>Sindre Njøsen </sub>](https://github.com/Sindrenj) <br />💻|[<img src="https://avatars1.githubusercontent.com/u/40323674?s=460&v=3" width="118px;"/><br /><sub>Alevtina Brown </sub>](https://github.com/alev7ina) <br />🌍|[<img src="https://avatars3.githubusercontent.com/u/29726153?s=460&v=3" width="118px;"/><br /><sub>Brice </sub>](https://github.com/Brice-xCIT) <br />💻|[<img src="https://avatars0.githubusercontent.com/u/17114154?s=460&v=3" width="118px;"/><br /><sub>TheEvilPenguin </sub>](https://github.com/TheEvilPenguin) <br />💻|[<img src="https://avatars3.githubusercontent.com/u/15545395?s=460&v=3" width="118px;"/><br /><sub>Saeed Rahmani </sub>](https://github.com/saeedrahmo) <br />🌍|
 |[<img src="https://avatars0.githubusercontent.com/u/15867612?s=460&v=3" width="118px;"/><br /><sub>Andy Yu </sub>](https://github.com/Zyxious) <br />🌍|[<img src="https://avatars2.githubusercontent.com/u/51412447?s=400&v=3" width="118px;"/><br /><sub>ChrisSzabo </sub>](https://github.com/ChrisSzabo) <br />💻|[<img src="https://avatars1.githubusercontent.com/u/6860441?s=400&v=3" width="118px;"/><br /><sub>aiscrim </sub>](https://github.com/aiscrim) <br />💻 💡 🤔|[<img src="https://avatars2.githubusercontent.com/u/12528083?s=400&v=3" width="118px;"/><br /><sub>HrDahl </sub>](https://github.com/HrDahl) <br />🌍|[<img src="https://avatars0.githubusercontent.com/u/3269687?s=400&v=4" width="118px;"/><br /><sub>Andrew Godfroy </sub>](https://github.com/killerrin) <br />📖|[<img src="https://avatars0.githubusercontent.com/u/391353?s=400&v=3" width="118px;"/><br /><sub>bravecobra </sub>](https://github.com/bravecobra) <br />💻|
@@ -859,7 +859,7 @@ Contributions of any kind are welcome!
 
 I am happy to share my attempt of the implementation of the administration for Duende.IdentityServer and ASP.NET Core Identity.
 
-Any feedback is welcome - feel free to create an issue or send me an email - [jan@skoruba.com](mailto:jan@skoruba.com). Thank you :blush:
+Any feedback is welcome - feel free to create an issue or send me an email - [jan@PrinceHarry.com](mailto:jan@PrinceHarry.com). Thank you :blush:
 
 ## Support and Donation 🕊️
 
@@ -867,8 +867,8 @@ If you like my work, you can support me by donation. 👍
 
 ### Paypal
 
-https://www.paypal.me/skoruba
+https://www.paypal.me/PrinceHarry
 
 ### Patreon
 
-https://www.patreon.com/skoruba
+https://www.patreon.com/PrinceHarry
