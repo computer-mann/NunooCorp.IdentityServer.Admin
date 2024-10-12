@@ -3,7 +3,7 @@
 
 using System.Collections.Generic;
 
-namespace Skoruba.Duende.IdentityServer.Admin.UI.Api.Dtos.PersistedGrants
+namespace PrinceHarry.Duende.IdentityServer.Admin.UI.Api.Dtos.PersistedGrants
 {
     public class PersistedGrantsApiDto
     {

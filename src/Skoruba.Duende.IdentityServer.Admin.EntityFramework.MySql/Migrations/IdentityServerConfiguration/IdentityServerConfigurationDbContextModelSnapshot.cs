@@ -3,11 +3,11 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using Skoruba.Duende.IdentityServer.Admin.EntityFramework.Shared.DbContexts;
+using PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Shared.DbContexts;
 
 #nullable disable
 
-namespace Skoruba.Duende.IdentityServer.Admin.EntityFramework.MySql.Migrations.IdentityServerConfiguration
+namespace PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.MySql.Migrations.IdentityServerConfiguration
 {
     [DbContext(typeof(IdentityServerConfigurationDbContext))]
     partial class IdentityServerConfigurationDbContextModelSnapshot : ModelSnapshot

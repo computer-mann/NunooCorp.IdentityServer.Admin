@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
-namespace Skoruba.Duende.IdentityServer.Admin.EntityFramework.MySql.Migrations.IdentityServerGrants
+namespace PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.MySql.Migrations.IdentityServerGrants
 {
     /// <inheritdoc />
     public partial class IdentityServerV7 : Migration

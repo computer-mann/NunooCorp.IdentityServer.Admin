@@ -1,4 +1,4 @@
-﻿namespace Skoruba.Duende.IdentityServer.Admin.EntityFramework.MySql.Helpers
+﻿namespace PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.MySql.Helpers
 {
     public class MigrationAssembly
     {

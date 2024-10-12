@@ -4,9 +4,9 @@
 using Duende.IdentityServer.EntityFramework.DbContexts;
 using Duende.IdentityServer.EntityFramework.Entities;
 using Microsoft.EntityFrameworkCore;
-using Skoruba.Duende.IdentityServer.Admin.EntityFramework.Interfaces;
+using PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Interfaces;
 
-namespace Skoruba.Duende.IdentityServer.Admin.EntityFramework.Shared.DbContexts
+namespace PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Shared.DbContexts
 {
     public class IdentityServerConfigurationDbContext : ConfigurationDbContext<IdentityServerConfigurationDbContext>, IAdminConfigurationDbContext
     {

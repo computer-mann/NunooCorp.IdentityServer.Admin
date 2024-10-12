@@ -23,7 +23,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\..\src\Skoruba.Duende.IdentityServer.Admin.Api\Skoruba.Duende.IdentityServer.Admin.Api.csproj" />
+      <ProjectReference Include="..\..\src\PrinceHarry.Duende.IdentityServer.Admin.Api\PrinceHarry.Duende.IdentityServer.Admin.Api.csproj" />
     </ItemGroup>
 
 </Project>

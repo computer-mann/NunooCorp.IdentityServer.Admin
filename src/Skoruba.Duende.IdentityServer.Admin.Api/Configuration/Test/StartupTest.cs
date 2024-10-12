@@ -7,12 +7,12 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Skoruba.Duende.IdentityServer.Admin.EntityFramework.Shared.DbContexts;
-using Skoruba.Duende.IdentityServer.Admin.EntityFramework.Shared.Entities.Identity;
-using Skoruba.Duende.IdentityServer.Admin.UI.Api.Helpers;
-using Skoruba.Duende.IdentityServer.Admin.UI.Api.Middlewares;
+using PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Shared.DbContexts;
+using PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Shared.Entities.Identity;
+using PrinceHarry.Duende.IdentityServer.Admin.UI.Api.Helpers;
+using PrinceHarry.Duende.IdentityServer.Admin.UI.Api.Middlewares;
 
-namespace Skoruba.Duende.IdentityServer.Admin.Api.Configuration.Test
+namespace PrinceHarry.Duende.IdentityServer.Admin.Api.Configuration.Test
 {
     public class StartupTest : Startup
     {

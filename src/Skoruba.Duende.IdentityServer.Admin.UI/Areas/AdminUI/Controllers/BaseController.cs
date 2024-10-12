@@ -6,10 +6,10 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
 using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;
-using Skoruba.Duende.IdentityServer.Admin.UI.Configuration.Constants;
-using Skoruba.Duende.IdentityServer.Admin.UI.Helpers;
+using PrinceHarry.Duende.IdentityServer.Admin.UI.Configuration.Constants;
+using PrinceHarry.Duende.IdentityServer.Admin.UI.Helpers;
 
-namespace Skoruba.Duende.IdentityServer.Admin.UI.Areas.AdminUI.Controllers
+namespace PrinceHarry.Duende.IdentityServer.Admin.UI.Areas.AdminUI.Controllers
 {
     [Area(CommonConsts.AdminUIArea)]
     public class BaseController : Controller

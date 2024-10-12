@@ -6,9 +6,9 @@ using System.Linq;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
-using Skoruba.Duende.IdentityServer.Admin.BusinessLogic.Shared.ExceptionHandling;
+using PrinceHarry.Duende.IdentityServer.Admin.BusinessLogic.Shared.ExceptionHandling;
 
-namespace Skoruba.Duende.IdentityServer.Admin.UI.Api.ExceptionHandling
+namespace PrinceHarry.Duende.IdentityServer.Admin.UI.Api.ExceptionHandling
 {
     public class ControllerExceptionFilterAttribute : ExceptionFilterAttribute
     {

@@ -4,10 +4,10 @@
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Skoruba.Duende.IdentityServer.Admin.EntityFramework.Shared.DbContexts;
-using Skoruba.Duende.IdentityServer.STS.Identity.Helpers;
+using PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Shared.DbContexts;
+using PrinceHarry.Duende.IdentityServer.STS.Identity.Helpers;
 
-namespace Skoruba.Duende.IdentityServer.STS.Identity.Configuration.Test
+namespace PrinceHarry.Duende.IdentityServer.STS.Identity.Configuration.Test
 {
     public class StartupTest : Startup
     {

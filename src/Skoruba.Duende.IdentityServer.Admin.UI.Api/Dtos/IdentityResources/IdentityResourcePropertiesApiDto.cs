@@ -3,7 +3,7 @@
 
 using System.Collections.Generic;
 
-namespace Skoruba.Duende.IdentityServer.Admin.UI.Api.Dtos.IdentityResources
+namespace PrinceHarry.Duende.IdentityServer.Admin.UI.Api.Dtos.IdentityResources
 {
     public class IdentityResourcePropertiesApiDto
     {

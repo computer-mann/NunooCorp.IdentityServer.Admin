@@ -10,14 +10,14 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using Skoruba.Duende.IdentityServer.Admin.BusinessLogic.Identity.Dtos.Identity;
-using Skoruba.Duende.IdentityServer.Admin.BusinessLogic.Identity.Services.Interfaces;
-using Skoruba.Duende.IdentityServer.Admin.BusinessLogic.Shared.Dtos.Common;
-using Skoruba.Duende.IdentityServer.Admin.UI.Configuration.Constants;
-using Skoruba.Duende.IdentityServer.Admin.UI.ExceptionHandling;
-using Skoruba.Duende.IdentityServer.Admin.UI.Helpers.Localization;
+using PrinceHarry.Duende.IdentityServer.Admin.BusinessLogic.Identity.Dtos.Identity;
+using PrinceHarry.Duende.IdentityServer.Admin.BusinessLogic.Identity.Services.Interfaces;
+using PrinceHarry.Duende.IdentityServer.Admin.BusinessLogic.Shared.Dtos.Common;
+using PrinceHarry.Duende.IdentityServer.Admin.UI.Configuration.Constants;
+using PrinceHarry.Duende.IdentityServer.Admin.UI.ExceptionHandling;
+using PrinceHarry.Duende.IdentityServer.Admin.UI.Helpers.Localization;
 
-namespace Skoruba.Duende.IdentityServer.Admin.UI.Areas.AdminUI.Controllers
+namespace PrinceHarry.Duende.IdentityServer.Admin.UI.Areas.AdminUI.Controllers
 {
     [Authorize(Policy = AuthorizationConsts.AdministrationPolicy)]
     [TypeFilter(typeof(ControllerExceptionFilterAttribute))]

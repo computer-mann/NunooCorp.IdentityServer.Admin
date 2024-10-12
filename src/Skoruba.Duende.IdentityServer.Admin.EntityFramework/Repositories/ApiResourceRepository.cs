@@ -7,14 +7,14 @@ using System.Linq.Expressions;
 using System.Threading.Tasks;
 using Duende.IdentityServer.EntityFramework.Entities;
 using Microsoft.EntityFrameworkCore;
-using Skoruba.Duende.IdentityServer.Admin.EntityFramework.Extensions.Common;
-using Skoruba.Duende.IdentityServer.Admin.EntityFramework.Extensions.Enums;
-using Skoruba.Duende.IdentityServer.Admin.EntityFramework.Extensions.Extensions;
-using Skoruba.Duende.IdentityServer.Admin.EntityFramework.Interfaces;
-using Skoruba.Duende.IdentityServer.Admin.EntityFramework.Repositories.Interfaces;
+using PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Extensions.Common;
+using PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Extensions.Enums;
+using PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Extensions.Extensions;
+using PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Interfaces;
+using PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Repositories.Interfaces;
 using ApiResource = Duende.IdentityServer.EntityFramework.Entities.ApiResource;
 
-namespace Skoruba.Duende.IdentityServer.Admin.EntityFramework.Repositories
+namespace PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Repositories
 {
     public class ApiResourceRepository<TDbContext> : IApiResourceRepository
         where TDbContext : DbContext, IAdminConfigurationDbContext

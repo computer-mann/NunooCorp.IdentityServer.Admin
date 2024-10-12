@@ -2,17 +2,17 @@
 // Licensed under the Apache License, Version 2.0.
 
 using System.Threading.Tasks;
-using Skoruba.AuditLogging.Services;
-using Skoruba.Duende.IdentityServer.Admin.BusinessLogic.Dtos.Configuration;
-using Skoruba.Duende.IdentityServer.Admin.BusinessLogic.Events.IdentityResource;
-using Skoruba.Duende.IdentityServer.Admin.BusinessLogic.Helpers;
-using Skoruba.Duende.IdentityServer.Admin.BusinessLogic.Mappers;
-using Skoruba.Duende.IdentityServer.Admin.BusinessLogic.Resources;
-using Skoruba.Duende.IdentityServer.Admin.BusinessLogic.Services.Interfaces;
-using Skoruba.Duende.IdentityServer.Admin.BusinessLogic.Shared.ExceptionHandling;
-using Skoruba.Duende.IdentityServer.Admin.EntityFramework.Repositories.Interfaces;
+using PrinceHarry.AuditLogging.Services;
+using PrinceHarry.Duende.IdentityServer.Admin.BusinessLogic.Dtos.Configuration;
+using PrinceHarry.Duende.IdentityServer.Admin.BusinessLogic.Events.IdentityResource;
+using PrinceHarry.Duende.IdentityServer.Admin.BusinessLogic.Helpers;
+using PrinceHarry.Duende.IdentityServer.Admin.BusinessLogic.Mappers;
+using PrinceHarry.Duende.IdentityServer.Admin.BusinessLogic.Resources;
+using PrinceHarry.Duende.IdentityServer.Admin.BusinessLogic.Services.Interfaces;
+using PrinceHarry.Duende.IdentityServer.Admin.BusinessLogic.Shared.ExceptionHandling;
+using PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Repositories.Interfaces;
 
-namespace Skoruba.Duende.IdentityServer.Admin.BusinessLogic.Services
+namespace PrinceHarry.Duende.IdentityServer.Admin.BusinessLogic.Services
 {
     public class IdentityResourceService : IIdentityResourceService
     {

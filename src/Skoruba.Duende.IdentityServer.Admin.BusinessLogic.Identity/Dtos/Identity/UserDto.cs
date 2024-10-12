@@ -3,10 +3,10 @@
 
 using System;
 using System.ComponentModel.DataAnnotations;
-using Skoruba.Duende.IdentityServer.Admin.BusinessLogic.Identity.Dtos.Identity.Base;
-using Skoruba.Duende.IdentityServer.Admin.BusinessLogic.Identity.Dtos.Identity.Interfaces;
+using PrinceHarry.Duende.IdentityServer.Admin.BusinessLogic.Identity.Dtos.Identity.Base;
+using PrinceHarry.Duende.IdentityServer.Admin.BusinessLogic.Identity.Dtos.Identity.Interfaces;
 
-namespace Skoruba.Duende.IdentityServer.Admin.BusinessLogic.Identity.Dtos.Identity
+namespace PrinceHarry.Duende.IdentityServer.Admin.BusinessLogic.Identity.Dtos.Identity
 {
     public class UserDto<TKey> : BaseUserDto<TKey>, IUserDto
     {        

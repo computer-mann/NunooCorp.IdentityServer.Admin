@@ -3,7 +3,7 @@
         "MinimumLevel": {
             "Default": "Error",
             "Override": {
-                "Skoruba": "Information"
+                "PrinceHarry": "Information"
             }
         },
         "WriteTo": [

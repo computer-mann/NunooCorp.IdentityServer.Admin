@@ -5,10 +5,10 @@ using System;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
-using Skoruba.Duende.IdentityServer.Admin.UI.Areas.AdminUI.Controllers;
+using PrinceHarry.Duende.IdentityServer.Admin.UI.Areas.AdminUI.Controllers;
 using Xunit;
 
-namespace Skoruba.Duende.IdentityServer.Admin.UnitTests.Controllers
+namespace PrinceHarry.Duende.IdentityServer.Admin.UnitTests.Controllers
 {
     public class HomeControllerTests
     {

@@ -3,7 +3,7 @@
 
 using System;
 
-namespace Skoruba.Duende.IdentityServer.Admin.UI.Helpers
+namespace PrinceHarry.Duende.IdentityServer.Admin.UI.Helpers
 {
     public static class DateTimeHelpers
     {

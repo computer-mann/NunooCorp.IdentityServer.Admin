@@ -9,17 +9,17 @@ using System.Threading.Tasks;
 using Duende.IdentityServer.EntityFramework.Entities;
 using Duende.IdentityServer.Models;
 using Microsoft.EntityFrameworkCore;
-using Skoruba.Duende.IdentityServer.Admin.EntityFramework.Constants;
-using Skoruba.Duende.IdentityServer.Admin.EntityFramework.Extensions.Common;
-using Skoruba.Duende.IdentityServer.Admin.EntityFramework.Extensions.Enums;
-using Skoruba.Duende.IdentityServer.Admin.EntityFramework.Extensions.Extensions;
-using Skoruba.Duende.IdentityServer.Admin.EntityFramework.Helpers;
-using Skoruba.Duende.IdentityServer.Admin.EntityFramework.Interfaces;
-using Skoruba.Duende.IdentityServer.Admin.EntityFramework.Repositories.Interfaces;
+using PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Constants;
+using PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Extensions.Common;
+using PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Extensions.Enums;
+using PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Extensions.Extensions;
+using PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Helpers;
+using PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Interfaces;
+using PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Repositories.Interfaces;
 using Client = Duende.IdentityServer.EntityFramework.Entities.Client;
 using ClientClaim = Duende.IdentityServer.EntityFramework.Entities.ClientClaim;
 
-namespace Skoruba.Duende.IdentityServer.Admin.EntityFramework.Repositories
+namespace PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Repositories
 {
     public class ClientRepository<TDbContext> : IClientRepository
     where TDbContext : DbContext, IAdminConfigurationDbContext

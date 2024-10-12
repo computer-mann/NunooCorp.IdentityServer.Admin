@@ -6,10 +6,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using AutoMapper;
-using Skoruba.Duende.IdentityServer.Admin.BusinessLogic.Dtos.IdentityProvider;
-using Skoruba.Duende.IdentityServer.Admin.UI.Api.Dtos.IdentityProvider;
+using PrinceHarry.Duende.IdentityServer.Admin.BusinessLogic.Dtos.IdentityProvider;
+using PrinceHarry.Duende.IdentityServer.Admin.UI.Api.Dtos.IdentityProvider;
 
-namespace Skoruba.Duende.IdentityServer.Admin.UI.Api.Mappers
+namespace PrinceHarry.Duende.IdentityServer.Admin.UI.Api.Mappers
 {
     public class IdentityProviderApiMapperProfile : Profile
     {

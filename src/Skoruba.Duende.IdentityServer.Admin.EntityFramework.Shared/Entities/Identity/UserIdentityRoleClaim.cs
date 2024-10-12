@@ -3,7 +3,7 @@
 
 using Microsoft.AspNetCore.Identity;
 
-namespace Skoruba.Duende.IdentityServer.Admin.EntityFramework.Shared.Entities.Identity
+namespace PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Shared.Entities.Identity
 {
     public class UserIdentityRoleClaim : IdentityRoleClaim<string>
     {

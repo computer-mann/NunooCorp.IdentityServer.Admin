@@ -1,10 +1,10 @@
 ﻿using System;
 using FluentAssertions;
-using Skoruba.Duende.IdentityServer.Admin.BusinessLogic.Mappers;
-using Skoruba.Duende.IdentityServer.Admin.UnitTests.Mocks;
+using PrinceHarry.Duende.IdentityServer.Admin.BusinessLogic.Mappers;
+using PrinceHarry.Duende.IdentityServer.Admin.UnitTests.Mocks;
 using Xunit;
 
-namespace Skoruba.Duende.IdentityServer.Admin.UnitTests.Mappers
+namespace PrinceHarry.Duende.IdentityServer.Admin.UnitTests.Mappers
 {
     public class KeyMappers
     {

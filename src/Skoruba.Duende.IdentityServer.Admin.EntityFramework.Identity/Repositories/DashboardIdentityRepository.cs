@@ -3,9 +3,9 @@ using System.Threading;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-using Skoruba.Duende.IdentityServer.Admin.EntityFramework.Identity.Repositories.Interfaces;
+using PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Identity.Repositories.Interfaces;
 
-namespace Skoruba.Duende.IdentityServer.Admin.EntityFramework.Identity.Repositories;
+namespace PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Identity.Repositories;
 
 public class DashboardIdentityRepository<TUser, TKey, TRole> : IDashboardIdentityRepository
     where TKey : IEquatable<TKey>

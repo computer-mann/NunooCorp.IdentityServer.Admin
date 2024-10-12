@@ -14,24 +14,24 @@ using Microsoft.Extensions.Hosting;
 using NSwag;
 using NSwag.AspNetCore;
 using NSwag.Generation.Processors.Security;
-using Skoruba.AuditLogging.EntityFramework.Entities;
-using Skoruba.Duende.IdentityServer.Admin.Api.Configuration;
-using Skoruba.Duende.IdentityServer.Admin.BusinessLogic.Extensions;
-using Skoruba.Duende.IdentityServer.Admin.BusinessLogic.Identity.Extensions;
-using Skoruba.Duende.IdentityServer.Admin.EntityFramework.Shared.DbContexts;
-using Skoruba.Duende.IdentityServer.Admin.EntityFramework.Shared.Entities.Identity;
-using Skoruba.Duende.IdentityServer.Admin.EntityFramework.Shared.Extensions;
-using Skoruba.Duende.IdentityServer.Admin.UI.Api.Configuration;
-using Skoruba.Duende.IdentityServer.Admin.UI.Api.Configuration.Authorization;
-using Skoruba.Duende.IdentityServer.Admin.UI.Api.ExceptionHandling;
-using Skoruba.Duende.IdentityServer.Admin.UI.Api.Helpers;
-using Skoruba.Duende.IdentityServer.Admin.UI.Api.Mappers;
-using Skoruba.Duende.IdentityServer.Admin.UI.Api.Resources;
-using Skoruba.Duende.IdentityServer.Shared.Configuration.Helpers;
-using Skoruba.Duende.IdentityServer.Shared.Dtos;
-using Skoruba.Duende.IdentityServer.Shared.Dtos.Identity;
+using PrinceHarry.AuditLogging.EntityFramework.Entities;
+using PrinceHarry.Duende.IdentityServer.Admin.Api.Configuration;
+using PrinceHarry.Duende.IdentityServer.Admin.BusinessLogic.Extensions;
+using PrinceHarry.Duende.IdentityServer.Admin.BusinessLogic.Identity.Extensions;
+using PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Shared.DbContexts;
+using PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Shared.Entities.Identity;
+using PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Shared.Extensions;
+using PrinceHarry.Duende.IdentityServer.Admin.UI.Api.Configuration;
+using PrinceHarry.Duende.IdentityServer.Admin.UI.Api.Configuration.Authorization;
+using PrinceHarry.Duende.IdentityServer.Admin.UI.Api.ExceptionHandling;
+using PrinceHarry.Duende.IdentityServer.Admin.UI.Api.Helpers;
+using PrinceHarry.Duende.IdentityServer.Admin.UI.Api.Mappers;
+using PrinceHarry.Duende.IdentityServer.Admin.UI.Api.Resources;
+using PrinceHarry.Duende.IdentityServer.Shared.Configuration.Helpers;
+using PrinceHarry.Duende.IdentityServer.Shared.Dtos;
+using PrinceHarry.Duende.IdentityServer.Shared.Dtos.Identity;
 
-namespace Skoruba.Duende.IdentityServer.Admin.Api
+namespace PrinceHarry.Duende.IdentityServer.Admin.Api
 {
     public class Startup
     {

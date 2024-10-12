@@ -9,9 +9,9 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using Moq;
-using Skoruba.Duende.IdentityServer.Admin.EntityFramework.Shared.Entities.Identity;
+using PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Shared.Entities.Identity;
 
-namespace Skoruba.Duende.IdentityServer.Admin.UnitTests.Mocks
+namespace PrinceHarry.Duende.IdentityServer.Admin.UnitTests.Mocks
 {
     public static class IdentityMock
     {

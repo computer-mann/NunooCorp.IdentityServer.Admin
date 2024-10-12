@@ -24,13 +24,13 @@ using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.WebUtilities;
 using Microsoft.Extensions.Logging;
-using Skoruba.Duende.IdentityServer.Shared.Configuration.Configuration.Identity;
-using Skoruba.Duende.IdentityServer.STS.Identity.Configuration;
-using Skoruba.Duende.IdentityServer.STS.Identity.Helpers;
-using Skoruba.Duende.IdentityServer.STS.Identity.Helpers.Localization;
-using Skoruba.Duende.IdentityServer.STS.Identity.ViewModels.Account;
+using PrinceHarry.Duende.IdentityServer.Shared.Configuration.Configuration.Identity;
+using PrinceHarry.Duende.IdentityServer.STS.Identity.Configuration;
+using PrinceHarry.Duende.IdentityServer.STS.Identity.Helpers;
+using PrinceHarry.Duende.IdentityServer.STS.Identity.Helpers.Localization;
+using PrinceHarry.Duende.IdentityServer.STS.Identity.ViewModels.Account;
 
-namespace Skoruba.Duende.IdentityServer.STS.Identity.Controllers
+namespace PrinceHarry.Duende.IdentityServer.STS.Identity.Controllers
 {
     [SecurityHeaders]
     [Authorize]

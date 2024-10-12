@@ -6,7 +6,7 @@
 
 using System;
 
-namespace Skoruba.Duende.IdentityServer.STS.Identity.Configuration
+namespace PrinceHarry.Duende.IdentityServer.STS.Identity.Configuration
 {
     public class AccountOptions
     {

@@ -3,10 +3,10 @@ using System.IO;
 using System.Security.Cryptography.X509Certificates;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Skoruba.Duende.IdentityServer.Shared.Configuration.Configuration.Common;
-using Skoruba.Duende.IdentityServer.Shared.Configuration.Helpers;
+using PrinceHarry.Duende.IdentityServer.Shared.Configuration.Configuration.Common;
+using PrinceHarry.Duende.IdentityServer.Shared.Configuration.Helpers;
 
-namespace Skoruba.Duende.IdentityServer.STS.Identity.Helpers
+namespace PrinceHarry.Duende.IdentityServer.STS.Identity.Helpers
 {
     public static class IdentityServerBuilderExtensions
     {

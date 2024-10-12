@@ -4,11 +4,11 @@
 using System.Net;
 using System.Threading.Tasks;
 using FluentAssertions;
-using Skoruba.Duende.IdentityServer.Admin.Api.IntegrationTests.Common;
-using Skoruba.Duende.IdentityServer.Admin.Api.IntegrationTests.Tests.Base;
+using PrinceHarry.Duende.IdentityServer.Admin.Api.IntegrationTests.Common;
+using PrinceHarry.Duende.IdentityServer.Admin.Api.IntegrationTests.Tests.Base;
 using Xunit;
 
-namespace Skoruba.Duende.IdentityServer.Admin.Api.IntegrationTests.Tests
+namespace PrinceHarry.Duende.IdentityServer.Admin.Api.IntegrationTests.Tests
 {
     public class ClientsControllerTests : BaseClassFixture
     {

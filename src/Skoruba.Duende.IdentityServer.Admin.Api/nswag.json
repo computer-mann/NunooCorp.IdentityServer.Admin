@@ -3,7 +3,7 @@
   "defaultVariables": null,
   "documentGenerator": {
     "aspNetCoreToOpenApi": {
-      "project": "Skoruba.Duende.IdentityServer.Admin.Api.csproj",
+      "project": "PrinceHarry.Duende.IdentityServer.Admin.Api.csproj",
       "msBuildProjectExtensionsPath": null,
       "configuration": null,
       "runtime": "",
@@ -30,7 +30,7 @@
       "serviceHost": null,
       "serviceBasePath": null,
       "serviceSchemes": [],
-      "infoTitle": "Skoruba",
+      "infoTitle": "PrinceHarry",
       "infoDescription": null,
       "infoVersion": "1.0.0",
       "documentTemplate": null,

@@ -10,11 +10,11 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using SendGrid;
-using Skoruba.Duende.IdentityServer.Shared.Configuration.Configuration.Common;
-using Skoruba.Duende.IdentityServer.Shared.Configuration.Configuration.Email;
-using Skoruba.Duende.IdentityServer.Shared.Configuration.Email;
+using PrinceHarry.Duende.IdentityServer.Shared.Configuration.Configuration.Common;
+using PrinceHarry.Duende.IdentityServer.Shared.Configuration.Configuration.Email;
+using PrinceHarry.Duende.IdentityServer.Shared.Configuration.Email;
 
-namespace Skoruba.Duende.IdentityServer.Shared.Configuration.Helpers
+namespace PrinceHarry.Duende.IdentityServer.Shared.Configuration.Helpers
 {
     public static class StartupHelpers
     {
@@ -58,7 +58,7 @@ namespace Skoruba.Duende.IdentityServer.Shared.Configuration.Helpers
             where TDbContext : DbContext, IDataProtectionKeyContext
         {
             var dataProtectionBuilder = services.AddDataProtection()
-                .SetApplicationName("Skoruba.Duende.IdentityServer")
+                .SetApplicationName("PrinceHarry.Duende.IdentityServer")
                 .PersistKeysToDbContext<TDbContext>();
 
             if (dataProtectionConfiguration.ProtectKeysWithAzureKeyVault)

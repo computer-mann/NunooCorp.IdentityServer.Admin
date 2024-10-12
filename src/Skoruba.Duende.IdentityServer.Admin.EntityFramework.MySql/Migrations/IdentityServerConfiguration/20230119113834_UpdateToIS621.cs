@@ -2,7 +2,7 @@
 
 #nullable disable
 
-namespace Skoruba.Duende.IdentityServer.Admin.EntityFramework.MySql.Migrations.IdentityServerConfiguration
+namespace PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.MySql.Migrations.IdentityServerConfiguration
 {
     public partial class UpdateToIS621 : Migration
     {

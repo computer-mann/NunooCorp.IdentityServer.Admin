@@ -3,9 +3,9 @@
 
 using System.Collections;
 using System.Collections.Generic;
-using Skoruba.Duende.IdentityServer.Admin.UI.Helpers.Identity;
+using PrinceHarry.Duende.IdentityServer.Admin.UI.Helpers.Identity;
 
-namespace Skoruba.Duende.IdentityServer.Admin.UnitTests.Helpers
+namespace PrinceHarry.Duende.IdentityServer.Admin.UnitTests.Helpers
 {
     class IdentityErrorDescriberFallbackTestData : IEnumerable<object[]>
     {

@@ -2,10 +2,10 @@ using System.Collections.Generic;
 using Microsoft.Extensions.DependencyInjection;
 using NSwag;
 using NSwag.Generation.Processors.Security;
-using Skoruba.Duende.IdentityServer.Admin.UI.Api.Configuration;
-using Skoruba.Duende.IdentityServer.Admin.UI.Api.Configuration.Authorization;
+using PrinceHarry.Duende.IdentityServer.Admin.UI.Api.Configuration;
+using PrinceHarry.Duende.IdentityServer.Admin.UI.Api.Configuration.Authorization;
 
-namespace Skoruba.Duende.IdentityServer.Admin.Api.Configuration;
+namespace PrinceHarry.Duende.IdentityServer.Admin.Api.Configuration;
 
 public static class StartupHelpers
 {

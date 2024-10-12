@@ -4,7 +4,7 @@
 using System.Security.Cryptography;
 using System.Text;
 
-namespace Skoruba.Duende.IdentityServer.Admin.UI.Helpers
+namespace PrinceHarry.Duende.IdentityServer.Admin.UI.Helpers
 {
     /// <summary>
     /// Helper-class to create Md5hashes from strings

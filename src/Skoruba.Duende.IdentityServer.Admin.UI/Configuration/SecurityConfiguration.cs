@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.HttpsPolicy;
 
-namespace Skoruba.Duende.IdentityServer.Admin.UI.Configuration
+namespace PrinceHarry.Duende.IdentityServer.Admin.UI.Configuration
 {
 	public class SecurityConfiguration
 	{

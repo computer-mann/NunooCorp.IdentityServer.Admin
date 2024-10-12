@@ -3,10 +3,10 @@
 
 using System.Threading;
 using System.Threading.Tasks;
-using Skoruba.Duende.IdentityServer.Admin.BusinessLogic.Dtos.Grant;
-using Skoruba.Duende.IdentityServer.Admin.BusinessLogic.Dtos.Key;
+using PrinceHarry.Duende.IdentityServer.Admin.BusinessLogic.Dtos.Grant;
+using PrinceHarry.Duende.IdentityServer.Admin.BusinessLogic.Dtos.Key;
 
-namespace Skoruba.Duende.IdentityServer.Admin.BusinessLogic.Services.Interfaces
+namespace PrinceHarry.Duende.IdentityServer.Admin.BusinessLogic.Services.Interfaces
 {
     public interface IKeyService
     {

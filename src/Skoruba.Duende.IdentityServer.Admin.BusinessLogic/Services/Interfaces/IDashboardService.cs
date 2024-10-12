@@ -1,8 +1,8 @@
 using System.Threading;
 using System.Threading.Tasks;
-using Skoruba.Duende.IdentityServer.Admin.BusinessLogic.Dtos.Dashboard;
+using PrinceHarry.Duende.IdentityServer.Admin.BusinessLogic.Dtos.Dashboard;
 
-namespace Skoruba.Duende.IdentityServer.Admin.BusinessLogic.Services.Interfaces;
+namespace PrinceHarry.Duende.IdentityServer.Admin.BusinessLogic.Services.Interfaces;
 
 public interface IDashboardService
 {

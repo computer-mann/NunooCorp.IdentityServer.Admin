@@ -1,7 +1,7 @@
-﻿using Skoruba.AuditLogging.Events;
-using Skoruba.Duende.IdentityServer.Admin.BusinessLogic.Dtos.IdentityProvider;
+﻿using PrinceHarry.AuditLogging.Events;
+using PrinceHarry.Duende.IdentityServer.Admin.BusinessLogic.Dtos.IdentityProvider;
 
-namespace Skoruba.Duende.IdentityServer.Admin.BusinessLogic.Events.IdentityProvider
+namespace PrinceHarry.Duende.IdentityServer.Admin.BusinessLogic.Events.IdentityProvider
 {
     public class IdentityProvidersRequestedEvent : AuditEvent
     {

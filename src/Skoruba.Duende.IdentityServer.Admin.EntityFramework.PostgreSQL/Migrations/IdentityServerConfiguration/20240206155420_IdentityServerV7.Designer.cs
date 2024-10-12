@@ -5,11 +5,11 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
-using Skoruba.Duende.IdentityServer.Admin.EntityFramework.Shared.DbContexts;
+using PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Shared.DbContexts;
 
 #nullable disable
 
-namespace Skoruba.Duende.IdentityServer.Admin.EntityFramework.PostgreSQL.Migrations.IdentityServerConfiguration
+namespace PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.PostgreSQL.Migrations.IdentityServerConfiguration
 {
     [DbContext(typeof(IdentityServerConfigurationDbContext))]
     [Migration("20240206155420_IdentityServerV7")]

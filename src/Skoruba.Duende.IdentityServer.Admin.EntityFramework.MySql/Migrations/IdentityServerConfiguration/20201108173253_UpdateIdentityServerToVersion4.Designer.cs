@@ -4,9 +4,9 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Migrations;
-using Skoruba.Duende.IdentityServer.Admin.EntityFramework.Shared.DbContexts;
+using PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Shared.DbContexts;
 
-namespace Skoruba.Duende.IdentityServer.Admin.EntityFramework.MySql.Migrations.IdentityServerConfiguration
+namespace PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.MySql.Migrations.IdentityServerConfiguration
 {
     [DbContext(typeof(IdentityServerConfigurationDbContext))]
     [Migration("20201108173253_UpdateIdentityServerToVersion4")]

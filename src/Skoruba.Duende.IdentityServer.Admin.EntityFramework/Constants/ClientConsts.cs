@@ -4,9 +4,9 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using Skoruba.Duende.IdentityServer.Admin.EntityFramework.Extensions.Common;
+using PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Extensions.Common;
 
-namespace Skoruba.Duende.IdentityServer.Admin.EntityFramework.Constants
+namespace PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Constants
 {
     public static class ClientConsts
     {

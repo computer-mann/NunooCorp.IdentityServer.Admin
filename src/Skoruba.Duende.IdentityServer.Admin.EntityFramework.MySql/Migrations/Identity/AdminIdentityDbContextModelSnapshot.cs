@@ -3,9 +3,9 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
-using Skoruba.Duende.IdentityServer.Admin.EntityFramework.Shared.DbContexts;
+using PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Shared.DbContexts;
 
-namespace Skoruba.Duende.IdentityServer.Admin.EntityFramework.MySql.Migrations.Identity
+namespace PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.MySql.Migrations.Identity
 {
     [DbContext(typeof(AdminIdentityDbContext))]
     partial class AdminIdentityDbContextModelSnapshot : ModelSnapshot
@@ -17,7 +17,7 @@ namespace Skoruba.Duende.IdentityServer.Admin.EntityFramework.MySql.Migrations.I
                 .HasAnnotation("ProductVersion", "3.0.0")
                 .HasAnnotation("Relational:MaxIdentifierLength", 64);
 
-            modelBuilder.Entity("Skoruba.Duende.IdentityServer.Admin.EntityFramework.Shared.Entities.Identity.UserIdentity", b =>
+            modelBuilder.Entity("PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Shared.Entities.Identity.UserIdentity", b =>
                 {
                     b.Property<string>("Id")
                         .HasColumnType("varchar(255) CHARACTER SET utf8mb4");
@@ -81,7 +81,7 @@ namespace Skoruba.Duende.IdentityServer.Admin.EntityFramework.MySql.Migrations.I
                     b.ToTable("Users");
                 });
 
-            modelBuilder.Entity("Skoruba.Duende.IdentityServer.Admin.EntityFramework.Shared.Entities.Identity.UserIdentityRole", b =>
+            modelBuilder.Entity("PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Shared.Entities.Identity.UserIdentityRole", b =>
                 {
                     b.Property<string>("Id")
                         .HasColumnType("varchar(255) CHARACTER SET utf8mb4");
@@ -107,7 +107,7 @@ namespace Skoruba.Duende.IdentityServer.Admin.EntityFramework.MySql.Migrations.I
                     b.ToTable("Roles");
                 });
 
-            modelBuilder.Entity("Skoruba.Duende.IdentityServer.Admin.EntityFramework.Shared.Entities.Identity.UserIdentityRoleClaim", b =>
+            modelBuilder.Entity("PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Shared.Entities.Identity.UserIdentityRoleClaim", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -130,7 +130,7 @@ namespace Skoruba.Duende.IdentityServer.Admin.EntityFramework.MySql.Migrations.I
                     b.ToTable("RoleClaims");
                 });
 
-            modelBuilder.Entity("Skoruba.Duende.IdentityServer.Admin.EntityFramework.Shared.Entities.Identity.UserIdentityUserClaim", b =>
+            modelBuilder.Entity("PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Shared.Entities.Identity.UserIdentityUserClaim", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -153,7 +153,7 @@ namespace Skoruba.Duende.IdentityServer.Admin.EntityFramework.MySql.Migrations.I
                     b.ToTable("UserClaims");
                 });
 
-            modelBuilder.Entity("Skoruba.Duende.IdentityServer.Admin.EntityFramework.Shared.Entities.Identity.UserIdentityUserLogin", b =>
+            modelBuilder.Entity("PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Shared.Entities.Identity.UserIdentityUserLogin", b =>
                 {
                     b.Property<string>("LoginProvider")
                         .HasColumnType("varchar(255) CHARACTER SET utf8mb4");
@@ -175,7 +175,7 @@ namespace Skoruba.Duende.IdentityServer.Admin.EntityFramework.MySql.Migrations.I
                     b.ToTable("UserLogins");
                 });
 
-            modelBuilder.Entity("Skoruba.Duende.IdentityServer.Admin.EntityFramework.Shared.Entities.Identity.UserIdentityUserRole", b =>
+            modelBuilder.Entity("PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Shared.Entities.Identity.UserIdentityUserRole", b =>
                 {
                     b.Property<string>("UserId")
                         .HasColumnType("varchar(255) CHARACTER SET utf8mb4");
@@ -190,7 +190,7 @@ namespace Skoruba.Duende.IdentityServer.Admin.EntityFramework.MySql.Migrations.I
                     b.ToTable("UserRoles");
                 });
 
-            modelBuilder.Entity("Skoruba.Duende.IdentityServer.Admin.EntityFramework.Shared.Entities.Identity.UserIdentityUserToken", b =>
+            modelBuilder.Entity("PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Shared.Entities.Identity.UserIdentityUserToken", b =>
                 {
                     b.Property<string>("UserId")
                         .HasColumnType("varchar(255) CHARACTER SET utf8mb4");
@@ -209,51 +209,51 @@ namespace Skoruba.Duende.IdentityServer.Admin.EntityFramework.MySql.Migrations.I
                     b.ToTable("UserTokens");
                 });
 
-            modelBuilder.Entity("Skoruba.Duende.IdentityServer.Admin.EntityFramework.Shared.Entities.Identity.UserIdentityRoleClaim", b =>
+            modelBuilder.Entity("PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Shared.Entities.Identity.UserIdentityRoleClaim", b =>
                 {
-                    b.HasOne("Skoruba.Duende.IdentityServer.Admin.EntityFramework.Shared.Entities.Identity.UserIdentityRole", null)
+                    b.HasOne("PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Shared.Entities.Identity.UserIdentityRole", null)
                         .WithMany()
                         .HasForeignKey("RoleId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("Skoruba.Duende.IdentityServer.Admin.EntityFramework.Shared.Entities.Identity.UserIdentityUserClaim", b =>
+            modelBuilder.Entity("PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Shared.Entities.Identity.UserIdentityUserClaim", b =>
                 {
-                    b.HasOne("Skoruba.Duende.IdentityServer.Admin.EntityFramework.Shared.Entities.Identity.UserIdentity", null)
+                    b.HasOne("PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Shared.Entities.Identity.UserIdentity", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("Skoruba.Duende.IdentityServer.Admin.EntityFramework.Shared.Entities.Identity.UserIdentityUserLogin", b =>
+            modelBuilder.Entity("PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Shared.Entities.Identity.UserIdentityUserLogin", b =>
                 {
-                    b.HasOne("Skoruba.Duende.IdentityServer.Admin.EntityFramework.Shared.Entities.Identity.UserIdentity", null)
+                    b.HasOne("PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Shared.Entities.Identity.UserIdentity", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("Skoruba.Duende.IdentityServer.Admin.EntityFramework.Shared.Entities.Identity.UserIdentityUserRole", b =>
+            modelBuilder.Entity("PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Shared.Entities.Identity.UserIdentityUserRole", b =>
                 {
-                    b.HasOne("Skoruba.Duende.IdentityServer.Admin.EntityFramework.Shared.Entities.Identity.UserIdentityRole", null)
+                    b.HasOne("PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Shared.Entities.Identity.UserIdentityRole", null)
                         .WithMany()
                         .HasForeignKey("RoleId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("Skoruba.Duende.IdentityServer.Admin.EntityFramework.Shared.Entities.Identity.UserIdentity", null)
+                    b.HasOne("PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Shared.Entities.Identity.UserIdentity", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("Skoruba.Duende.IdentityServer.Admin.EntityFramework.Shared.Entities.Identity.UserIdentityUserToken", b =>
+            modelBuilder.Entity("PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Shared.Entities.Identity.UserIdentityUserToken", b =>
                 {
-                    b.HasOne("Skoruba.Duende.IdentityServer.Admin.EntityFramework.Shared.Entities.Identity.UserIdentity", null)
+                    b.HasOne("PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Shared.Entities.Identity.UserIdentity", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)

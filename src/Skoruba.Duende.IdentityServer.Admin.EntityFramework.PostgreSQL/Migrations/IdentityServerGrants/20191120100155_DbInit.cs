@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace Skoruba.Duende.IdentityServer.Admin.EntityFramework.PostgreSQL.Migrations.IdentityServerGrants
+namespace PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.PostgreSQL.Migrations.IdentityServerGrants
 {
     public partial class DbInit : Migration
     {

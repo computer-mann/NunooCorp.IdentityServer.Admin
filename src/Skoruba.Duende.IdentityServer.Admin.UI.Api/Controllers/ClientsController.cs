@@ -5,16 +5,16 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Skoruba.Duende.IdentityServer.Admin.BusinessLogic.Dtos.Configuration;
-using Skoruba.Duende.IdentityServer.Admin.BusinessLogic.Services.Interfaces;
-using Skoruba.Duende.IdentityServer.Admin.BusinessLogic.Shared.Dtos.Common;
-using Skoruba.Duende.IdentityServer.Admin.UI.Api.Configuration.Constants;
-using Skoruba.Duende.IdentityServer.Admin.UI.Api.Dtos.Clients;
-using Skoruba.Duende.IdentityServer.Admin.UI.Api.ExceptionHandling;
-using Skoruba.Duende.IdentityServer.Admin.UI.Api.Mappers;
-using Skoruba.Duende.IdentityServer.Admin.UI.Api.Resources;
+using PrinceHarry.Duende.IdentityServer.Admin.BusinessLogic.Dtos.Configuration;
+using PrinceHarry.Duende.IdentityServer.Admin.BusinessLogic.Services.Interfaces;
+using PrinceHarry.Duende.IdentityServer.Admin.BusinessLogic.Shared.Dtos.Common;
+using PrinceHarry.Duende.IdentityServer.Admin.UI.Api.Configuration.Constants;
+using PrinceHarry.Duende.IdentityServer.Admin.UI.Api.Dtos.Clients;
+using PrinceHarry.Duende.IdentityServer.Admin.UI.Api.ExceptionHandling;
+using PrinceHarry.Duende.IdentityServer.Admin.UI.Api.Mappers;
+using PrinceHarry.Duende.IdentityServer.Admin.UI.Api.Resources;
 
-namespace Skoruba.Duende.IdentityServer.Admin.UI.Api.Controllers
+namespace PrinceHarry.Duende.IdentityServer.Admin.UI.Api.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]

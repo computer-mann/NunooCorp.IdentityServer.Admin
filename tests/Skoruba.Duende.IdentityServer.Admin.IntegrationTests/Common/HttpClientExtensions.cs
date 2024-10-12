@@ -5,10 +5,10 @@ using System;
 using System.IdentityModel.Tokens.Jwt;
 using System.Net.Http;
 using System.Security.Claims;
-using Skoruba.Duende.IdentityServer.Admin.UI.Configuration;
-using Skoruba.Duende.IdentityServer.Admin.UI.Middlewares;
+using PrinceHarry.Duende.IdentityServer.Admin.UI.Configuration;
+using PrinceHarry.Duende.IdentityServer.Admin.UI.Middlewares;
 
-namespace Skoruba.Duende.IdentityServer.Admin.IntegrationTests.Common
+namespace PrinceHarry.Duende.IdentityServer.Admin.IntegrationTests.Common
 {
 	public static class HttpClientExtensions
     {

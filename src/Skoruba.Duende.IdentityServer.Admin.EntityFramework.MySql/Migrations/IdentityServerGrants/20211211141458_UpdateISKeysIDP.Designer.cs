@@ -4,9 +4,9 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using Skoruba.Duende.IdentityServer.Admin.EntityFramework.Shared.DbContexts;
+using PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Shared.DbContexts;
 
-namespace Skoruba.Duende.IdentityServer.Admin.EntityFramework.MySql.Migrations.IdentityServerGrants
+namespace PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.MySql.Migrations.IdentityServerGrants
 {
     [DbContext(typeof(IdentityServerPersistedGrantDbContext))]
     [Migration("20211211141458_UpdateISKeysIDP")]

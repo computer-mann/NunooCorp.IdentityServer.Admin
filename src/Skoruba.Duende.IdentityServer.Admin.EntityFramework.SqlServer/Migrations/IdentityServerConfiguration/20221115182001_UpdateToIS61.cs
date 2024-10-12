@@ -2,7 +2,7 @@
 
 #nullable disable
 
-namespace Skoruba.Duende.IdentityServer.Admin.EntityFramework.SqlServer.Migrations.IdentityServerConfiguration
+namespace PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.SqlServer.Migrations.IdentityServerConfiguration
 {
     public partial class UpdateToIS61 : Migration
     {

@@ -3,9 +3,9 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
-using Skoruba.Duende.IdentityServer.Admin.EntityFramework.Shared.DbContexts;
+using PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Shared.DbContexts;
 
-namespace Skoruba.Duende.IdentityServer.Admin.EntityFramework.MySql.Migrations.Logging
+namespace PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.MySql.Migrations.Logging
 {
     [DbContext(typeof(AdminLogDbContext))]
     partial class AdminLogDbContextModelSnapshot : ModelSnapshot
@@ -17,7 +17,7 @@ namespace Skoruba.Duende.IdentityServer.Admin.EntityFramework.MySql.Migrations.L
                 .HasAnnotation("ProductVersion", "3.0.0")
                 .HasAnnotation("Relational:MaxIdentifierLength", 64);
 
-            modelBuilder.Entity("Skoruba.Duende.IdentityServer.Admin.EntityFramework.Entities.Log", b =>
+            modelBuilder.Entity("PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Entities.Log", b =>
                 {
                     b.Property<long>("Id")
                         .ValueGeneratedOnAdd()

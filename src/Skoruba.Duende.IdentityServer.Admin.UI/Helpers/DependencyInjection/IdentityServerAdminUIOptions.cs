@@ -5,13 +5,13 @@ using System;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Skoruba.Duende.IdentityServer.Admin.EntityFramework.Configuration.Configuration;
-using Skoruba.Duende.IdentityServer.Admin.EntityFramework.Shared.Configuration.Schema;
-using Skoruba.Duende.IdentityServer.Admin.UI.Configuration;
-using Skoruba.Duende.IdentityServer.Admin.UI.Configuration.Constants;
-using Skoruba.Duende.IdentityServer.Shared.Configuration.Configuration.Common;
+using PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Configuration.Configuration;
+using PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Shared.Configuration.Schema;
+using PrinceHarry.Duende.IdentityServer.Admin.UI.Configuration;
+using PrinceHarry.Duende.IdentityServer.Admin.UI.Configuration.Constants;
+using PrinceHarry.Duende.IdentityServer.Shared.Configuration.Configuration.Common;
 
-namespace Skoruba.Duende.IdentityServer.Admin.UI.Helpers.DependencyInjection
+namespace PrinceHarry.Duende.IdentityServer.Admin.UI.Helpers.DependencyInjection
 {
 	public class IdentityServerAdminUIOptions
 	{

@@ -4,11 +4,11 @@
 using System.Net.Http;
 using Microsoft.AspNetCore.TestHost;
 using Microsoft.Extensions.DependencyInjection;
-using Skoruba.Duende.IdentityServer.Admin.IntegrationTests.Common;
-using Skoruba.Duende.IdentityServer.Admin.UI.Configuration;
+using PrinceHarry.Duende.IdentityServer.Admin.IntegrationTests.Common;
+using PrinceHarry.Duende.IdentityServer.Admin.UI.Configuration;
 using Xunit;
 
-namespace Skoruba.Duende.IdentityServer.Admin.IntegrationTests.Tests.Base
+namespace PrinceHarry.Duende.IdentityServer.Admin.IntegrationTests.Tests.Base
 {
     public class BaseClassFixture : IClassFixture<TestFixture>
     {

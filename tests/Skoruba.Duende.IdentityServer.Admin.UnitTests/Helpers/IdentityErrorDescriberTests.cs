@@ -5,10 +5,10 @@ using System.Linq;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Localization;
 using Moq;
-using Skoruba.Duende.IdentityServer.Admin.UI.Helpers.Identity;
+using PrinceHarry.Duende.IdentityServer.Admin.UI.Helpers.Identity;
 using Xunit;
 
-namespace Skoruba.Duende.IdentityServer.Admin.UnitTests.Helpers
+namespace PrinceHarry.Duende.IdentityServer.Admin.UnitTests.Helpers
 {
     public class IdentityErrorDescriberTests
     {

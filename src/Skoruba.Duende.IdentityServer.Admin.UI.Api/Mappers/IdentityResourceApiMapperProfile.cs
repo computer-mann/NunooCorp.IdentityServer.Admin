@@ -2,10 +2,10 @@
 // Licensed under the Apache License, Version 2.0.
 
 using AutoMapper;
-using Skoruba.Duende.IdentityServer.Admin.BusinessLogic.Dtos.Configuration;
-using Skoruba.Duende.IdentityServer.Admin.UI.Api.Dtos.IdentityResources;
+using PrinceHarry.Duende.IdentityServer.Admin.BusinessLogic.Dtos.Configuration;
+using PrinceHarry.Duende.IdentityServer.Admin.UI.Api.Dtos.IdentityResources;
 
-namespace Skoruba.Duende.IdentityServer.Admin.UI.Api.Mappers
+namespace PrinceHarry.Duende.IdentityServer.Admin.UI.Api.Mappers
 {
     public class IdentityResourceApiMapperProfile : Profile
     {

@@ -2,9 +2,9 @@
 // Licensed under the Apache License, Version 2.0.
 
 using Microsoft.AspNetCore.Mvc;
-using Skoruba.Duende.IdentityServer.Admin.UI.Configuration;
+using PrinceHarry.Duende.IdentityServer.Admin.UI.Configuration;
 
-namespace Skoruba.Duende.IdentityServer.Admin.UI.ViewComponents
+namespace PrinceHarry.Duende.IdentityServer.Admin.UI.ViewComponents
 {
 	public class IdentityServerLinkViewComponent : ViewComponent
     {

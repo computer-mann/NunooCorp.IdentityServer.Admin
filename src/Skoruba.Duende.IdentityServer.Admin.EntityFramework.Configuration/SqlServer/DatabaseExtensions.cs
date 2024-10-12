@@ -6,12 +6,12 @@ using Duende.IdentityServer.EntityFramework.Storage;
 using Microsoft.AspNetCore.DataProtection.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
-using Skoruba.AuditLogging.EntityFramework.DbContexts;
-using Skoruba.AuditLogging.EntityFramework.Entities;
-using Skoruba.Duende.IdentityServer.Admin.EntityFramework.Configuration.Configuration;
-using Skoruba.Duende.IdentityServer.Admin.EntityFramework.Interfaces;
+using PrinceHarry.AuditLogging.EntityFramework.DbContexts;
+using PrinceHarry.AuditLogging.EntityFramework.Entities;
+using PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Configuration.Configuration;
+using PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Interfaces;
 
-namespace Skoruba.Duende.IdentityServer.Admin.EntityFramework.Configuration.SqlServer
+namespace PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Configuration.SqlServer
 {
     public static class DatabaseExtensions
     {

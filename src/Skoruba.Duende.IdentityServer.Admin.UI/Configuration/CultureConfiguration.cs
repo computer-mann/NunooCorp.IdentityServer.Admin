@@ -3,7 +3,7 @@
 
 using System.Collections.Generic;
 
-namespace Skoruba.Duende.IdentityServer.Admin.UI.Configuration
+namespace PrinceHarry.Duende.IdentityServer.Admin.UI.Configuration
 {
     public class CultureConfiguration
     {

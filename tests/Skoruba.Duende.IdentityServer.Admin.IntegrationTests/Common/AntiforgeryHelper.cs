@@ -8,7 +8,7 @@ using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using Microsoft.Net.Http.Headers;
 
-namespace Skoruba.Duende.IdentityServer.Admin.IntegrationTests.Common
+namespace PrinceHarry.Duende.IdentityServer.Admin.IntegrationTests.Common
 {
     public class AntiforgeryHelper
     {

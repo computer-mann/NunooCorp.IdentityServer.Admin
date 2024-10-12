@@ -1,12 +1,12 @@
 ﻿using System;
 using FluentAssertions;
-using Skoruba.Duende.IdentityServer.Admin.BusinessLogic.Dtos.Grant;
-using Skoruba.Duende.IdentityServer.Admin.UI.Api.Dtos.PersistedGrants;
-using Skoruba.Duende.IdentityServer.Admin.UI.Api.Mappers;
-using Skoruba.Duende.IdentityServer.Admin.UnitTests.Mocks;
+using PrinceHarry.Duende.IdentityServer.Admin.BusinessLogic.Dtos.Grant;
+using PrinceHarry.Duende.IdentityServer.Admin.UI.Api.Dtos.PersistedGrants;
+using PrinceHarry.Duende.IdentityServer.Admin.UI.Api.Mappers;
+using PrinceHarry.Duende.IdentityServer.Admin.UnitTests.Mocks;
 using Xunit;
 
-namespace Skoruba.Duende.IdentityServer.Admin.Api.UnitTests.Mappers
+namespace PrinceHarry.Duende.IdentityServer.Admin.Api.UnitTests.Mappers
 {
     public class PersistedGrantMappers
     {

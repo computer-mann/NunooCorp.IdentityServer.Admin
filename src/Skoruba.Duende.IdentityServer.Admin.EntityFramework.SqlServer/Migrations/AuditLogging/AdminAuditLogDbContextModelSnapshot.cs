@@ -4,9 +4,9 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
-using Skoruba.Duende.IdentityServer.Admin.EntityFramework.Shared.DbContexts;
+using PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Shared.DbContexts;
 
-namespace Skoruba.Duende.IdentityServer.Admin.EntityFramework.SqlServer.Migrations.AuditLogging
+namespace PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.SqlServer.Migrations.AuditLogging
 {
     [DbContext(typeof(AdminAuditLogDbContext))]
     partial class AdminAuditLogDbContextModelSnapshot : ModelSnapshot
@@ -19,7 +19,7 @@ namespace Skoruba.Duende.IdentityServer.Admin.EntityFramework.SqlServer.Migratio
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-            modelBuilder.Entity("Skoruba.AuditLogging.EntityFramework.Entities.AuditLog", b =>
+            modelBuilder.Entity("PrinceHarry.AuditLogging.EntityFramework.Entities.AuditLog", b =>
                 {
                     b.Property<long>("Id")
                         .ValueGeneratedOnAdd()

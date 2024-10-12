@@ -12,11 +12,11 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.WebUtilities;
 using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;
-using Skoruba.Duende.IdentityServer.STS.Identity.Helpers;
-using Skoruba.Duende.IdentityServer.STS.Identity.Helpers.Localization;
-using Skoruba.Duende.IdentityServer.STS.Identity.ViewModels.Manage;
+using PrinceHarry.Duende.IdentityServer.STS.Identity.Helpers;
+using PrinceHarry.Duende.IdentityServer.STS.Identity.Helpers.Localization;
+using PrinceHarry.Duende.IdentityServer.STS.Identity.ViewModels.Manage;
 
-namespace Skoruba.Duende.IdentityServer.STS.Identity.Controllers
+namespace PrinceHarry.Duende.IdentityServer.STS.Identity.Controllers
 {    
     [Authorize]
     public class ManageController<TUser, TKey> : Controller
@@ -702,7 +702,7 @@ namespace Skoruba.Duende.IdentityServer.STS.Identity.Controllers
         {
             return string.Format(
                 AuthenticatorUriFormat,
-                _urlEncoder.Encode("Skoruba.Duende.IdentityServer.STS.Identity"),
+                _urlEncoder.Encode("PrinceHarry.Duende.IdentityServer.STS.Identity"),
                 _urlEncoder.Encode(email),
                 unformattedKey);
         }

@@ -3,14 +3,14 @@
 
 using System;
 using System.Threading.Tasks;
-using Skoruba.AuditLogging.Services;
-using Skoruba.Duende.IdentityServer.Admin.BusinessLogic.Dtos.Log;
-using Skoruba.Duende.IdentityServer.Admin.BusinessLogic.Events.Log;
-using Skoruba.Duende.IdentityServer.Admin.BusinessLogic.Mappers;
-using Skoruba.Duende.IdentityServer.Admin.BusinessLogic.Services.Interfaces;
-using Skoruba.Duende.IdentityServer.Admin.EntityFramework.Repositories.Interfaces;
+using PrinceHarry.AuditLogging.Services;
+using PrinceHarry.Duende.IdentityServer.Admin.BusinessLogic.Dtos.Log;
+using PrinceHarry.Duende.IdentityServer.Admin.BusinessLogic.Events.Log;
+using PrinceHarry.Duende.IdentityServer.Admin.BusinessLogic.Mappers;
+using PrinceHarry.Duende.IdentityServer.Admin.BusinessLogic.Services.Interfaces;
+using PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Repositories.Interfaces;
 
-namespace Skoruba.Duende.IdentityServer.Admin.BusinessLogic.Services
+namespace PrinceHarry.Duende.IdentityServer.Admin.BusinessLogic.Services
 {
     public class LogService : ILogService
     {

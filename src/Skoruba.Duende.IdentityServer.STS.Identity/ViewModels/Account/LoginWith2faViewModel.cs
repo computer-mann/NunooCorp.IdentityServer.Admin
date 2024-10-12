@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace Skoruba.Duende.IdentityServer.STS.Identity.ViewModels.Account
+namespace PrinceHarry.Duende.IdentityServer.STS.Identity.ViewModels.Account
 {
     public class LoginWith2faViewModel
     {

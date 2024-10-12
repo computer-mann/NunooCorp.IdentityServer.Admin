@@ -3,7 +3,7 @@
 
 using System.Collections.Generic;
 
-namespace Skoruba.Duende.IdentityServer.Admin.BusinessLogic.Shared.Dtos.Common
+namespace PrinceHarry.Duende.IdentityServer.Admin.BusinessLogic.Shared.Dtos.Common
 {
 	public class Pager
 	{

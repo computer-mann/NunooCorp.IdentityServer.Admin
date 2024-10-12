@@ -19,23 +19,23 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Localization;
 using Microsoft.Extensions.Logging;
-using Skoruba.AuditLogging.EntityFramework.Entities;
-using Skoruba.AuditLogging.EntityFramework.Extensions;
-using Skoruba.AuditLogging.EntityFramework.Repositories;
-using Skoruba.AuditLogging.EntityFramework.Services;
-using Skoruba.Duende.IdentityServer.Admin.BusinessLogic.Dtos.Configuration;
-using Skoruba.Duende.IdentityServer.Admin.BusinessLogic.Extensions;
-using Skoruba.Duende.IdentityServer.Admin.BusinessLogic.Identity.Dtos.Identity;
-using Skoruba.Duende.IdentityServer.Admin.BusinessLogic.Identity.Extensions;
-using Skoruba.Duende.IdentityServer.Admin.BusinessLogic.Services.Interfaces;
-using Skoruba.Duende.IdentityServer.Admin.EntityFramework.Shared.DbContexts;
-using Skoruba.Duende.IdentityServer.Admin.EntityFramework.Shared.Entities.Identity;
-using Skoruba.Duende.IdentityServer.Admin.UI.Areas.AdminUI.Controllers;
-using Skoruba.Duende.IdentityServer.Admin.UI.Helpers;
-using Skoruba.Duende.IdentityServer.Admin.UnitTests.Mocks;
+using PrinceHarry.AuditLogging.EntityFramework.Entities;
+using PrinceHarry.AuditLogging.EntityFramework.Extensions;
+using PrinceHarry.AuditLogging.EntityFramework.Repositories;
+using PrinceHarry.AuditLogging.EntityFramework.Services;
+using PrinceHarry.Duende.IdentityServer.Admin.BusinessLogic.Dtos.Configuration;
+using PrinceHarry.Duende.IdentityServer.Admin.BusinessLogic.Extensions;
+using PrinceHarry.Duende.IdentityServer.Admin.BusinessLogic.Identity.Dtos.Identity;
+using PrinceHarry.Duende.IdentityServer.Admin.BusinessLogic.Identity.Extensions;
+using PrinceHarry.Duende.IdentityServer.Admin.BusinessLogic.Services.Interfaces;
+using PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Shared.DbContexts;
+using PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Shared.Entities.Identity;
+using PrinceHarry.Duende.IdentityServer.Admin.UI.Areas.AdminUI.Controllers;
+using PrinceHarry.Duende.IdentityServer.Admin.UI.Helpers;
+using PrinceHarry.Duende.IdentityServer.Admin.UnitTests.Mocks;
 using Xunit;
 
-namespace Skoruba.Duende.IdentityServer.Admin.UnitTests.Controllers
+namespace PrinceHarry.Duende.IdentityServer.Admin.UnitTests.Controllers
 {
     public class ConfigurationControllerTests
     {

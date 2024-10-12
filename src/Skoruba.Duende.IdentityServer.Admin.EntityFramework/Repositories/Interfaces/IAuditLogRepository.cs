@@ -5,11 +5,11 @@ using System;
 using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
-using Skoruba.AuditLogging.EntityFramework.Entities;
-using Skoruba.Duende.IdentityServer.Admin.EntityFramework.Entities;
-using Skoruba.Duende.IdentityServer.Admin.EntityFramework.Extensions.Common;
+using PrinceHarry.AuditLogging.EntityFramework.Entities;
+using PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Entities;
+using PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Extensions.Common;
 
-namespace Skoruba.Duende.IdentityServer.Admin.EntityFramework.Repositories.Interfaces
+namespace PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Repositories.Interfaces
 {
     public interface IAuditLogRepository<TAuditLog> where TAuditLog : AuditLog
     {

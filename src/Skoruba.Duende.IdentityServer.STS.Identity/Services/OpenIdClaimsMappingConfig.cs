@@ -5,12 +5,12 @@ using Duende.IdentityServer.Models;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.OpenIdConnect;
 using Microsoft.AspNetCore.Http;
-using Skoruba.Duende.IdentityServer.STS.Identity.Helpers;
+using PrinceHarry.Duende.IdentityServer.STS.Identity.Helpers;
 using System.Security.Claims;
 using Microsoft.Extensions.Logging;
 using Microsoft.IdentityModel.Tokens;
 
-namespace Skoruba.Duende.IdentityServer.STS.Identity.Services;
+namespace PrinceHarry.Duende.IdentityServer.STS.Identity.Services;
 
 public class OpenIdClaimsMappingConfig : ConfigureAuthenticationOptions<OpenIdConnectOptions, OidcProvider>
 {

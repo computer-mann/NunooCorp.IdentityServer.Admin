@@ -8,11 +8,11 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Localization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using Skoruba.Duende.IdentityServer.Admin.UI.Configuration.Constants;
-using Skoruba.Duende.IdentityServer.Admin.UI.ExceptionHandling;
-using Skoruba.Duende.IdentityServer.Shared.Configuration.Helpers;
+using PrinceHarry.Duende.IdentityServer.Admin.UI.Configuration.Constants;
+using PrinceHarry.Duende.IdentityServer.Admin.UI.ExceptionHandling;
+using PrinceHarry.Duende.IdentityServer.Shared.Configuration.Helpers;
 
-namespace Skoruba.Duende.IdentityServer.Admin.UI.Areas.AdminUI.Controllers
+namespace PrinceHarry.Duende.IdentityServer.Admin.UI.Areas.AdminUI.Controllers
 {
     [Authorize(Policy = AuthorizationConsts.AdministrationPolicy)]
     [TypeFilter(typeof(ControllerExceptionFilterAttribute))]

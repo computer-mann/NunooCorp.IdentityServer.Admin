@@ -8,13 +8,13 @@ using Duende.IdentityServer.EntityFramework.Options;
 using FluentAssertions;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
-using Skoruba.Duende.IdentityServer.Admin.EntityFramework.Repositories;
-using Skoruba.Duende.IdentityServer.Admin.EntityFramework.Repositories.Interfaces;
-using Skoruba.Duende.IdentityServer.Admin.EntityFramework.Shared.DbContexts;
-using Skoruba.Duende.IdentityServer.Admin.UnitTests.Mocks;
+using PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Repositories;
+using PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Repositories.Interfaces;
+using PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Shared.DbContexts;
+using PrinceHarry.Duende.IdentityServer.Admin.UnitTests.Mocks;
 using Xunit;
 
-namespace Skoruba.Duende.IdentityServer.Admin.UnitTests.Repositories
+namespace PrinceHarry.Duende.IdentityServer.Admin.UnitTests.Repositories
 {
     public class ApiResourceRepositoryTests
     {

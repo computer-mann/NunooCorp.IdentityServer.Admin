@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore.Migrations;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
-namespace Skoruba.Duende.IdentityServer.Admin.EntityFramework.PostgreSQL.Migrations.AuditLogging
+namespace PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.PostgreSQL.Migrations.AuditLogging
 {
     public partial class ChangeAuditLogToLong : Migration
     {

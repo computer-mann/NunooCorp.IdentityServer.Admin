@@ -6,15 +6,15 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Skoruba.Duende.IdentityServer.Admin.EntityFramework.Shared.DbContexts;
-using Skoruba.Duende.IdentityServer.Admin.EntityFramework.Shared.Entities.Identity;
-using Skoruba.Duende.IdentityServer.Shared.Configuration.Helpers;
-using Skoruba.Duende.IdentityServer.STS.Identity.Configuration;
-using Skoruba.Duende.IdentityServer.STS.Identity.Configuration.Constants;
-using Skoruba.Duende.IdentityServer.STS.Identity.Configuration.Interfaces;
-using Skoruba.Duende.IdentityServer.STS.Identity.Helpers;
+using PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Shared.DbContexts;
+using PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Shared.Entities.Identity;
+using PrinceHarry.Duende.IdentityServer.Shared.Configuration.Helpers;
+using PrinceHarry.Duende.IdentityServer.STS.Identity.Configuration;
+using PrinceHarry.Duende.IdentityServer.STS.Identity.Configuration.Constants;
+using PrinceHarry.Duende.IdentityServer.STS.Identity.Configuration.Interfaces;
+using PrinceHarry.Duende.IdentityServer.STS.Identity.Helpers;
 
-namespace Skoruba.Duende.IdentityServer.STS.Identity
+namespace PrinceHarry.Duende.IdentityServer.STS.Identity
 {
     public class Startup
     {

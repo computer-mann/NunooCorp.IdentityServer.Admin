@@ -8,19 +8,19 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
-using Skoruba.AuditLogging.EntityFramework.Entities;
-using Skoruba.Duende.IdentityServer.Admin.Configuration.Database;
-using Skoruba.Duende.IdentityServer.Admin.EntityFramework.Shared.DbContexts;
-using Skoruba.Duende.IdentityServer.Admin.EntityFramework.Shared.Entities.Identity;
-using Skoruba.Duende.IdentityServer.Admin.EntityFramework.Shared.Extensions;
-using Skoruba.Duende.IdentityServer.Admin.Helpers;
-using Skoruba.Duende.IdentityServer.Admin.UI.Helpers.ApplicationBuilder;
-using Skoruba.Duende.IdentityServer.Admin.UI.Helpers.DependencyInjection;
-using Skoruba.Duende.IdentityServer.Shared.Configuration.Helpers;
-using Skoruba.Duende.IdentityServer.Shared.Dtos;
-using Skoruba.Duende.IdentityServer.Shared.Dtos.Identity;
+using PrinceHarry.AuditLogging.EntityFramework.Entities;
+using PrinceHarry.Duende.IdentityServer.Admin.Configuration.Database;
+using PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Shared.DbContexts;
+using PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Shared.Entities.Identity;
+using PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Shared.Extensions;
+using PrinceHarry.Duende.IdentityServer.Admin.Helpers;
+using PrinceHarry.Duende.IdentityServer.Admin.UI.Helpers.ApplicationBuilder;
+using PrinceHarry.Duende.IdentityServer.Admin.UI.Helpers.DependencyInjection;
+using PrinceHarry.Duende.IdentityServer.Shared.Configuration.Helpers;
+using PrinceHarry.Duende.IdentityServer.Shared.Dtos;
+using PrinceHarry.Duende.IdentityServer.Shared.Dtos.Identity;
 
-namespace Skoruba.Duende.IdentityServer.Admin
+namespace PrinceHarry.Duende.IdentityServer.Admin
 {
     public class Startup
     {

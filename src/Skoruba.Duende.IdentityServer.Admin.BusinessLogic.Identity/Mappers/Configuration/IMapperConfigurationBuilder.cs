@@ -4,9 +4,9 @@
 using System;
 using System.Collections.Generic;
 using Microsoft.AspNetCore.Identity;
-using Skoruba.Duende.IdentityServer.Admin.BusinessLogic.Identity.Dtos.Identity;
+using PrinceHarry.Duende.IdentityServer.Admin.BusinessLogic.Identity.Dtos.Identity;
 
-namespace Skoruba.Duende.IdentityServer.Admin.BusinessLogic.Identity.Mappers.Configuration
+namespace PrinceHarry.Duende.IdentityServer.Admin.BusinessLogic.Identity.Mappers.Configuration
 {
     public interface IMapperConfigurationBuilder
     {

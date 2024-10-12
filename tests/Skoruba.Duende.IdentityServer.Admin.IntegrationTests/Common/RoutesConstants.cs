@@ -3,7 +3,7 @@
 
 using System.Collections.Generic;
 
-namespace Skoruba.Duende.IdentityServer.Admin.IntegrationTests.Common
+namespace PrinceHarry.Duende.IdentityServer.Admin.IntegrationTests.Common
 {
     public static class RoutesConstants
     {

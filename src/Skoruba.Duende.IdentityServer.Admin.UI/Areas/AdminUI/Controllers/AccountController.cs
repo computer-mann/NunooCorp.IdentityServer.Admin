@@ -5,9 +5,9 @@ using System.Collections.Generic;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using Skoruba.Duende.IdentityServer.Admin.UI.Configuration.Constants;
+using PrinceHarry.Duende.IdentityServer.Admin.UI.Configuration.Constants;
 
-namespace Skoruba.Duende.IdentityServer.Admin.UI.Areas.AdminUI.Controllers
+namespace PrinceHarry.Duende.IdentityServer.Admin.UI.Areas.AdminUI.Controllers
 {
     [Authorize]
     [Area(CommonConsts.AdminUIArea)]

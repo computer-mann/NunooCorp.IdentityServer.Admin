@@ -3,9 +3,9 @@
 
 using System;
 using System.Threading.Tasks;
-using Skoruba.Duende.IdentityServer.Admin.BusinessLogic.Dtos.Log;
+using PrinceHarry.Duende.IdentityServer.Admin.BusinessLogic.Dtos.Log;
 
-namespace Skoruba.Duende.IdentityServer.Admin.BusinessLogic.Services.Interfaces
+namespace PrinceHarry.Duende.IdentityServer.Admin.BusinessLogic.Services.Interfaces
 {
     public interface ILogService
     {

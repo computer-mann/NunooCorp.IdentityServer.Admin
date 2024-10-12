@@ -6,7 +6,7 @@
 
 using Duende.IdentityServer.Models;
 
-namespace Skoruba.Duende.IdentityServer.STS.Identity.ViewModels.Home
+namespace PrinceHarry.Duende.IdentityServer.STS.Identity.ViewModels.Home
 {
     public class ErrorViewModel
     {

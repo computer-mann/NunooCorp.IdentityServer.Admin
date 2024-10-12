@@ -2,11 +2,11 @@
 // Licensed under the Apache License, Version 2.0.
 
 using AutoMapper;
-using Skoruba.Duende.IdentityServer.Admin.BusinessLogic.Identity.Dtos.Identity;
-using Skoruba.Duende.IdentityServer.Admin.UI.Api.Dtos.Roles;
-using Skoruba.Duende.IdentityServer.Admin.UI.Api.Dtos.Users;
+using PrinceHarry.Duende.IdentityServer.Admin.BusinessLogic.Identity.Dtos.Identity;
+using PrinceHarry.Duende.IdentityServer.Admin.UI.Api.Dtos.Roles;
+using PrinceHarry.Duende.IdentityServer.Admin.UI.Api.Dtos.Users;
 
-namespace Skoruba.Duende.IdentityServer.Admin.UI.Api.Mappers
+namespace PrinceHarry.Duende.IdentityServer.Admin.UI.Api.Mappers
 {
     public class IdentityMapperProfile<TRoleDto, TUserRolesDto, TKey, TUserClaimsDto, TUserClaimDto, TUserProviderDto, TUserProvidersDto, TUserChangePasswordDto, TRoleClaimDto, TRoleClaimsDto> : Profile
         where TUserClaimsDto : UserClaimsDto<TUserClaimDto, TKey>

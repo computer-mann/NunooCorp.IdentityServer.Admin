@@ -4,12 +4,12 @@
 using System.Net.Http;
 using Microsoft.AspNetCore.TestHost;
 using Microsoft.Extensions.DependencyInjection;
-using Skoruba.Duende.IdentityServer.Admin.Api.Configuration;
-using Skoruba.Duende.IdentityServer.Admin.Api.IntegrationTests.Common;
-using Skoruba.Duende.IdentityServer.Admin.UI.Api.Configuration;
+using PrinceHarry.Duende.IdentityServer.Admin.Api.Configuration;
+using PrinceHarry.Duende.IdentityServer.Admin.Api.IntegrationTests.Common;
+using PrinceHarry.Duende.IdentityServer.Admin.UI.Api.Configuration;
 using Xunit;
 
-namespace Skoruba.Duende.IdentityServer.Admin.Api.IntegrationTests.Tests.Base
+namespace PrinceHarry.Duende.IdentityServer.Admin.Api.IntegrationTests.Tests.Base
 {
     public class BaseClassFixture : IClassFixture<TestFixture>
     {

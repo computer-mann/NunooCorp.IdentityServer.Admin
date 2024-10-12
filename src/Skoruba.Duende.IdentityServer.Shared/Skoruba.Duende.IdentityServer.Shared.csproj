@@ -16,7 +16,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<ProjectReference Include="..\Skoruba.Duende.IdentityServer.Admin.BusinessLogic.Identity\Skoruba.Duende.IdentityServer.Admin.BusinessLogic.Identity.csproj" />
+		<ProjectReference Include="..\PrinceHarry.Duende.IdentityServer.Admin.BusinessLogic.Identity\PrinceHarry.Duende.IdentityServer.Admin.BusinessLogic.Identity.csproj" />
 	</ItemGroup>
 
 </Project>

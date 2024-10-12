@@ -2,9 +2,9 @@
 // Licensed under the Apache License, Version 2.0.
 
 using System.Collections.Generic;
-using Skoruba.Duende.IdentityServer.Admin.BusinessLogic.Shared.Dtos.Common;
+using PrinceHarry.Duende.IdentityServer.Admin.BusinessLogic.Shared.Dtos.Common;
 
-namespace Skoruba.Duende.IdentityServer.Admin.BusinessLogic.Identity.Dtos.Identity.Interfaces
+namespace PrinceHarry.Duende.IdentityServer.Admin.BusinessLogic.Identity.Dtos.Identity.Interfaces
 {
     public interface IUserRolesDto : IBaseUserRolesDto
     {

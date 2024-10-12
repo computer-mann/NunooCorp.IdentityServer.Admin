@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.AspNetCore.Razor.TagHelpers;
 using Newtonsoft.Json;
 
-namespace Skoruba.Duende.IdentityServer.Admin.UI.Helpers.TagHelpers
+namespace PrinceHarry.Duende.IdentityServer.Admin.UI.Helpers.TagHelpers
 {
     [HtmlTargetElement("picker")]
     public class PickerTagHelper : TagHelper

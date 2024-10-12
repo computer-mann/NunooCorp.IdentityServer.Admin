@@ -6,11 +6,11 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Net.Http;
 using System.Security.Claims;
 using IdentityModel;
-using Skoruba.Duende.IdentityServer.Admin.Api.Configuration;
-using Skoruba.Duende.IdentityServer.Admin.UI.Api.Configuration;
-using Skoruba.Duende.IdentityServer.Admin.UI.Api.Middlewares;
+using PrinceHarry.Duende.IdentityServer.Admin.Api.Configuration;
+using PrinceHarry.Duende.IdentityServer.Admin.UI.Api.Configuration;
+using PrinceHarry.Duende.IdentityServer.Admin.UI.Api.Middlewares;
 
-namespace Skoruba.Duende.IdentityServer.Admin.Api.IntegrationTests.Common
+namespace PrinceHarry.Duende.IdentityServer.Admin.Api.IntegrationTests.Common
 {
     public static class HttpClientExtensions
     {

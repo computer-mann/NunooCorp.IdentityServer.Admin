@@ -5,11 +5,11 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using Skoruba.Duende.IdentityServer.Admin.BusinessLogic.Dtos.Log;
-using Skoruba.Duende.IdentityServer.Admin.BusinessLogic.Services.Interfaces;
-using Skoruba.Duende.IdentityServer.Admin.UI.Configuration.Constants;
+using PrinceHarry.Duende.IdentityServer.Admin.BusinessLogic.Dtos.Log;
+using PrinceHarry.Duende.IdentityServer.Admin.BusinessLogic.Services.Interfaces;
+using PrinceHarry.Duende.IdentityServer.Admin.UI.Configuration.Constants;
 
-namespace Skoruba.Duende.IdentityServer.Admin.UI.Areas.AdminUI.Controllers
+namespace PrinceHarry.Duende.IdentityServer.Admin.UI.Areas.AdminUI.Controllers
 {
     [Authorize(Policy = AuthorizationConsts.AdministrationPolicy)]
     [Area(CommonConsts.AdminUIArea)]

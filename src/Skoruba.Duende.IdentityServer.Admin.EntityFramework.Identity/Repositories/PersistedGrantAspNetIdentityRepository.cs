@@ -9,14 +9,14 @@ using Duende.IdentityServer.EntityFramework.Entities;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using Skoruba.Duende.IdentityServer.Admin.EntityFramework.Entities;
-using Skoruba.Duende.IdentityServer.Admin.EntityFramework.Extensions.Common;
-using Skoruba.Duende.IdentityServer.Admin.EntityFramework.Extensions.Enums;
-using Skoruba.Duende.IdentityServer.Admin.EntityFramework.Extensions.Extensions;
-using Skoruba.Duende.IdentityServer.Admin.EntityFramework.Identity.Repositories.Interfaces;
-using Skoruba.Duende.IdentityServer.Admin.EntityFramework.Interfaces;
+using PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Entities;
+using PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Extensions.Common;
+using PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Extensions.Enums;
+using PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Extensions.Extensions;
+using PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Identity.Repositories.Interfaces;
+using PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Interfaces;
 
-namespace Skoruba.Duende.IdentityServer.Admin.EntityFramework.Identity.Repositories
+namespace PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Identity.Repositories
 {
     public class PersistedGrantAspNetIdentityRepository<TIdentityDbContext, TPersistedGrantDbContext, TUser, TRole, TKey, TUserClaim, TUserRole, TUserLogin, TRoleClaim, TUserToken> : IPersistedGrantAspNetIdentityRepository
         where TIdentityDbContext : IdentityDbContext<TUser, TRole, TKey, TUserClaim, TUserRole, TUserLogin, TRoleClaim, TUserToken>

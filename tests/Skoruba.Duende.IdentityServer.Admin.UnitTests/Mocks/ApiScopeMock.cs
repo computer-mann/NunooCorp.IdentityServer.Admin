@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using Bogus;
 using Duende.IdentityServer.EntityFramework.Entities;
 
-namespace Skoruba.Duende.IdentityServer.Admin.UnitTests.Mocks
+namespace PrinceHarry.Duende.IdentityServer.Admin.UnitTests.Mocks
 {
     public static class ApiScopeMock
     {

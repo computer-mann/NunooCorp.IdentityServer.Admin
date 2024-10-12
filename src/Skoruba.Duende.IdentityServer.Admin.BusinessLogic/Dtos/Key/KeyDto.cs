@@ -3,7 +3,7 @@
 
 using System;
 
-namespace Skoruba.Duende.IdentityServer.Admin.BusinessLogic.Dtos.Key
+namespace PrinceHarry.Duende.IdentityServer.Admin.BusinessLogic.Dtos.Key
 {
     public class KeyDto
     {

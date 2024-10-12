@@ -26,31 +26,31 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.DependencyInjection.Extensions;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
-using Skoruba.AuditLogging.EntityFramework.DbContexts;
-using Skoruba.AuditLogging.EntityFramework.Entities;
-using Skoruba.AuditLogging.EntityFramework.Extensions;
-using Skoruba.AuditLogging.EntityFramework.Repositories;
-using Skoruba.AuditLogging.EntityFramework.Services;
-using Skoruba.Duende.IdentityServer.Admin.BusinessLogic.Identity.Dtos.Identity;
-using Skoruba.Duende.IdentityServer.Admin.BusinessLogic.Services;
-using Skoruba.Duende.IdentityServer.Admin.BusinessLogic.Services.Interfaces;
-using Skoruba.Duende.IdentityServer.Admin.EntityFramework.Configuration.Configuration;
-using Skoruba.Duende.IdentityServer.Admin.EntityFramework.Configuration.MySql;
-using Skoruba.Duende.IdentityServer.Admin.EntityFramework.Configuration.PostgreSQL;
-using Skoruba.Duende.IdentityServer.Admin.EntityFramework.Configuration.SqlServer;
-using Skoruba.Duende.IdentityServer.Admin.EntityFramework.Helpers;
-using Skoruba.Duende.IdentityServer.Admin.EntityFramework.Interfaces;
-using Skoruba.Duende.IdentityServer.Admin.EntityFramework.Repositories;
-using Skoruba.Duende.IdentityServer.Admin.EntityFramework.Repositories.Interfaces;
-using Skoruba.Duende.IdentityServer.Admin.UI.Configuration;
-using Skoruba.Duende.IdentityServer.Admin.UI.Configuration.ApplicationParts;
-using Skoruba.Duende.IdentityServer.Admin.UI.Configuration.Constants;
-using Skoruba.Duende.IdentityServer.Admin.UI.ExceptionHandling;
-using Skoruba.Duende.IdentityServer.Admin.UI.Helpers.Localization;
-using Skoruba.Duende.IdentityServer.Admin.UI.Middlewares;
-using Skoruba.Duende.IdentityServer.Shared.Configuration.Authentication;
+using PrinceHarry.AuditLogging.EntityFramework.DbContexts;
+using PrinceHarry.AuditLogging.EntityFramework.Entities;
+using PrinceHarry.AuditLogging.EntityFramework.Extensions;
+using PrinceHarry.AuditLogging.EntityFramework.Repositories;
+using PrinceHarry.AuditLogging.EntityFramework.Services;
+using PrinceHarry.Duende.IdentityServer.Admin.BusinessLogic.Identity.Dtos.Identity;
+using PrinceHarry.Duende.IdentityServer.Admin.BusinessLogic.Services;
+using PrinceHarry.Duende.IdentityServer.Admin.BusinessLogic.Services.Interfaces;
+using PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Configuration.Configuration;
+using PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Configuration.MySql;
+using PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Configuration.PostgreSQL;
+using PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Configuration.SqlServer;
+using PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Helpers;
+using PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Interfaces;
+using PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Repositories;
+using PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Repositories.Interfaces;
+using PrinceHarry.Duende.IdentityServer.Admin.UI.Configuration;
+using PrinceHarry.Duende.IdentityServer.Admin.UI.Configuration.ApplicationParts;
+using PrinceHarry.Duende.IdentityServer.Admin.UI.Configuration.Constants;
+using PrinceHarry.Duende.IdentityServer.Admin.UI.ExceptionHandling;
+using PrinceHarry.Duende.IdentityServer.Admin.UI.Helpers.Localization;
+using PrinceHarry.Duende.IdentityServer.Admin.UI.Middlewares;
+using PrinceHarry.Duende.IdentityServer.Shared.Configuration.Authentication;
 
-namespace Skoruba.Duende.IdentityServer.Admin.UI.Helpers
+namespace PrinceHarry.Duende.IdentityServer.Admin.UI.Helpers
 {
     public static class StartupHelpers
     {

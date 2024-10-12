@@ -3,9 +3,9 @@
 
 using System;
 using Bogus;
-using Skoruba.Duende.IdentityServer.Admin.BusinessLogic.Identity.Dtos.Identity;
+using PrinceHarry.Duende.IdentityServer.Admin.BusinessLogic.Identity.Dtos.Identity;
 
-namespace Skoruba.Duende.IdentityServer.Admin.UnitTests.Mocks
+namespace PrinceHarry.Duende.IdentityServer.Admin.UnitTests.Mocks
 {
     public class IdentityDtoMock<TKey>
     {

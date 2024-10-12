@@ -4,11 +4,11 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using Skoruba.Duende.IdentityServer.Admin.EntityFramework.Shared.DbContexts;
+using PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Shared.DbContexts;
 
 #nullable disable
 
-namespace Skoruba.Duende.IdentityServer.Admin.EntityFramework.SqlServer.Migrations.IdentityServerGrants
+namespace PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.SqlServer.Migrations.IdentityServerGrants
 {
     [DbContext(typeof(IdentityServerPersistedGrantDbContext))]
     partial class IdentityServerPersistedGrantDbContextModelSnapshot : ModelSnapshot

@@ -4,7 +4,7 @@
 using System.Security.Cryptography;
 using System.Text;
 
-namespace Skoruba.Duende.IdentityServer.STS.Identity.Helpers
+namespace PrinceHarry.Duende.IdentityServer.STS.Identity.Helpers
 {
 
     /// <summary>

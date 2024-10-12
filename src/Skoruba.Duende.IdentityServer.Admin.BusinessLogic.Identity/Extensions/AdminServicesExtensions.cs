@@ -9,19 +9,19 @@ using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Skoruba.Duende.IdentityServer.Admin.BusinessLogic.Identity.Dtos.Identity;
-using Skoruba.Duende.IdentityServer.Admin.BusinessLogic.Identity.Mappers.Configuration;
-using Skoruba.Duende.IdentityServer.Admin.BusinessLogic.Identity.Resources;
-using Skoruba.Duende.IdentityServer.Admin.BusinessLogic.Identity.Services;
-using Skoruba.Duende.IdentityServer.Admin.BusinessLogic.Identity.Services.Interfaces;
-using Skoruba.Duende.IdentityServer.Admin.EntityFramework.Identity.Repositories;
-using Skoruba.Duende.IdentityServer.Admin.EntityFramework.Identity.Repositories.Interfaces;
-using Skoruba.Duende.IdentityServer.Admin.EntityFramework.Interfaces;
-using Skoruba.Duende.IdentityServer.Admin.EntityFramework.Shared.Configuration.Schema;
-using Skoruba.Duende.IdentityServer.Admin.EntityFramework.Shared.Extensions;
+using PrinceHarry.Duende.IdentityServer.Admin.BusinessLogic.Identity.Dtos.Identity;
+using PrinceHarry.Duende.IdentityServer.Admin.BusinessLogic.Identity.Mappers.Configuration;
+using PrinceHarry.Duende.IdentityServer.Admin.BusinessLogic.Identity.Resources;
+using PrinceHarry.Duende.IdentityServer.Admin.BusinessLogic.Identity.Services;
+using PrinceHarry.Duende.IdentityServer.Admin.BusinessLogic.Identity.Services.Interfaces;
+using PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Identity.Repositories;
+using PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Identity.Repositories.Interfaces;
+using PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Interfaces;
+using PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Shared.Configuration.Schema;
+using PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Shared.Extensions;
 using IConfigurationProvider = AutoMapper.IConfigurationProvider;
 
-namespace Skoruba.Duende.IdentityServer.Admin.BusinessLogic.Identity.Extensions
+namespace PrinceHarry.Duende.IdentityServer.Admin.BusinessLogic.Identity.Extensions
 {
     public static class AdminServicesExtensions
     {

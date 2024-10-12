@@ -5,9 +5,9 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.Extensions.Logging;
 using SendGrid;
-using Skoruba.Duende.IdentityServer.Shared.Configuration.Configuration.Email;
+using PrinceHarry.Duende.IdentityServer.Shared.Configuration.Configuration.Email;
 
-namespace Skoruba.Duende.IdentityServer.Shared.Configuration.Email
+namespace PrinceHarry.Duende.IdentityServer.Shared.Configuration.Email
 {
     public class SendGridEmailSender : IEmailSender
     {

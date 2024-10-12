@@ -3,7 +3,7 @@
 
 using System.Collections.Generic;
 
-namespace Skoruba.Duende.IdentityServer.Shared.Configuration.Helpers
+namespace PrinceHarry.Duende.IdentityServer.Shared.Configuration.Helpers
 {
     public static class ThemeHelpers
     {

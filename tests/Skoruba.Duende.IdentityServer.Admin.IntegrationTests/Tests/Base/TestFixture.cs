@@ -6,9 +6,9 @@ using System.Net.Http;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.TestHost;
 using Microsoft.Extensions.Configuration;
-using Skoruba.Duende.IdentityServer.Admin.Configuration.Test;
+using PrinceHarry.Duende.IdentityServer.Admin.Configuration.Test;
 
-namespace Skoruba.Duende.IdentityServer.Admin.IntegrationTests.Tests.Base
+namespace PrinceHarry.Duende.IdentityServer.Admin.IntegrationTests.Tests.Base
 {
     public class TestFixture : IDisposable
     {

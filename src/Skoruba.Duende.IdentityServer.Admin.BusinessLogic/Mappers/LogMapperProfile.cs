@@ -2,12 +2,12 @@
 // Licensed under the Apache License, Version 2.0.
 
 using AutoMapper;
-using Skoruba.AuditLogging.EntityFramework.Entities;
-using Skoruba.Duende.IdentityServer.Admin.BusinessLogic.Dtos.Log;
-using Skoruba.Duende.IdentityServer.Admin.EntityFramework.Entities;
-using Skoruba.Duende.IdentityServer.Admin.EntityFramework.Extensions.Common;
+using PrinceHarry.AuditLogging.EntityFramework.Entities;
+using PrinceHarry.Duende.IdentityServer.Admin.BusinessLogic.Dtos.Log;
+using PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Entities;
+using PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Extensions.Common;
 
-namespace Skoruba.Duende.IdentityServer.Admin.BusinessLogic.Mappers
+namespace PrinceHarry.Duende.IdentityServer.Admin.BusinessLogic.Mappers
 {
     public class LogMapperProfile : Profile
     {

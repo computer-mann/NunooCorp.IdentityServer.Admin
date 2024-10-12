@@ -4,9 +4,9 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Migrations;
-using Skoruba.Duende.IdentityServer.Admin.EntityFramework.Shared.DbContexts;
+using PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Shared.DbContexts;
 
-namespace Skoruba.Duende.IdentityServer.Admin.EntityFramework.MySql.Migrations.AuditLogging
+namespace PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.MySql.Migrations.AuditLogging
 {
     [DbContext(typeof(AdminAuditLogDbContext))]
     [Migration("20200419131142_ChangeAuditLogToLong")]
@@ -19,7 +19,7 @@ namespace Skoruba.Duende.IdentityServer.Admin.EntityFramework.MySql.Migrations.A
                 .HasAnnotation("ProductVersion", "3.1.1")
                 .HasAnnotation("Relational:MaxIdentifierLength", 64);
 
-            modelBuilder.Entity("Skoruba.AuditLogging.EntityFramework.Entities.AuditLog", b =>
+            modelBuilder.Entity("PrinceHarry.AuditLogging.EntityFramework.Entities.AuditLog", b =>
                 {
                     b.Property<long>("Id")
                         .ValueGeneratedOnAdd()

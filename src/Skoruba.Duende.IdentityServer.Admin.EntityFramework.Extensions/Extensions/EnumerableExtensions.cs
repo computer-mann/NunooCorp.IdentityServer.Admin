@@ -5,7 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Skoruba.Duende.IdentityServer.Admin.EntityFramework.Extensions.Extensions
+namespace PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Extensions.Extensions
 {
     public static class EnumerableExtensions
     {

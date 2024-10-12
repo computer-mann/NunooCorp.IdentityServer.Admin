@@ -1,12 +1,12 @@
 ﻿using FluentAssertions;
-using Skoruba.Duende.IdentityServer.Admin.Api.UnitTests.Mocks;
-using Skoruba.Duende.IdentityServer.Admin.BusinessLogic.Dtos.Configuration;
-using Skoruba.Duende.IdentityServer.Admin.UI.Api.Dtos.ApiScopes;
-using Skoruba.Duende.IdentityServer.Admin.UI.Api.Mappers;
-using Skoruba.Duende.IdentityServer.Admin.UnitTests.Mocks;
+using PrinceHarry.Duende.IdentityServer.Admin.Api.UnitTests.Mocks;
+using PrinceHarry.Duende.IdentityServer.Admin.BusinessLogic.Dtos.Configuration;
+using PrinceHarry.Duende.IdentityServer.Admin.UI.Api.Dtos.ApiScopes;
+using PrinceHarry.Duende.IdentityServer.Admin.UI.Api.Mappers;
+using PrinceHarry.Duende.IdentityServer.Admin.UnitTests.Mocks;
 using Xunit;
 
-namespace Skoruba.Duende.IdentityServer.Admin.Api.UnitTests.Mappers
+namespace PrinceHarry.Duende.IdentityServer.Admin.Api.UnitTests.Mappers
 {
     public class ApiScopeMappers
     {

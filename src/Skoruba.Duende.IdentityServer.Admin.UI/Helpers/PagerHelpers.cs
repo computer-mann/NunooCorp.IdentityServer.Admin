@@ -7,7 +7,7 @@ using System.Linq;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Http.Extensions;
 
-namespace Skoruba.Duende.IdentityServer.Admin.UI.Helpers
+namespace PrinceHarry.Duende.IdentityServer.Admin.UI.Helpers
 {
     public static class PagerHelpers
     {

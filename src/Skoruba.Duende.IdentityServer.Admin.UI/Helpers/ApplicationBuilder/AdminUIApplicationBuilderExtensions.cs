@@ -7,15 +7,15 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Diagnostics.HealthChecks;
 using Microsoft.AspNetCore.Routing;
 using Microsoft.Extensions.DependencyInjection;
-using Skoruba.Duende.IdentityServer.Admin.UI.Configuration;
-using Skoruba.Duende.IdentityServer.Admin.UI.Configuration.Constants;
+using PrinceHarry.Duende.IdentityServer.Admin.UI.Configuration;
+using PrinceHarry.Duende.IdentityServer.Admin.UI.Configuration.Constants;
 
-namespace Skoruba.Duende.IdentityServer.Admin.UI.Helpers.ApplicationBuilder
+namespace PrinceHarry.Duende.IdentityServer.Admin.UI.Helpers.ApplicationBuilder
 {
     public static class AdminUIApplicationBuilderExtensions
     {
         /// <summary>
-        /// Adds the Skoruba Duende IdentityServer Admin UI to the pipeline of this application. This method must be called 
+        /// Adds the PrinceHarry Duende IdentityServer Admin UI to the pipeline of this application. This method must be called 
         /// between UseRouting() and UseEndpoints().
         /// </summary>
         /// <param name="app"></param>
@@ -28,7 +28,7 @@ namespace Skoruba.Duende.IdentityServer.Admin.UI.Helpers.ApplicationBuilder
         }
 
         /// <summary>
-        /// Maps the Skoruba Duende IdentityServer Admin UI to the routes of this application.
+        /// Maps the PrinceHarry Duende IdentityServer Admin UI to the routes of this application.
         /// </summary>
         /// <param name="endpoint"></param>
         /// <param name="patternPrefix"></param>
@@ -38,7 +38,7 @@ namespace Skoruba.Duende.IdentityServer.Admin.UI.Helpers.ApplicationBuilder
         }
 
         /// <summary>
-        /// Maps the Skoruba Duende IdentityServer Admin UI health checks to the routes of this application.
+        /// Maps the PrinceHarry Duende IdentityServer Admin UI health checks to the routes of this application.
         /// </summary>
         /// <param name="endpoint"></param>
         /// <param name="pattern"></param>

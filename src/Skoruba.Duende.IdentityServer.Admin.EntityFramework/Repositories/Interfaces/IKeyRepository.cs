@@ -4,9 +4,9 @@
 using System.Threading;
 using System.Threading.Tasks;
 using Duende.IdentityServer.EntityFramework.Entities;
-using Skoruba.Duende.IdentityServer.Admin.EntityFramework.Extensions.Common;
+using PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Extensions.Common;
 
-namespace Skoruba.Duende.IdentityServer.Admin.EntityFramework.Repositories.Interfaces
+namespace PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Repositories.Interfaces
 {
     public interface IKeyRepository
     {

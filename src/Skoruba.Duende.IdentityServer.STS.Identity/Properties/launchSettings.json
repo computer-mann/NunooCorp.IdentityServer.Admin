@@ -15,7 +15,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "Skoruba.Duende.IdentityServer.AspNetIdentity": {
+    "PrinceHarry.Duende.IdentityServer.AspNetIdentity": {
       "commandName": "Project",
       "launchBrowser": true,
       "environmentVariables": {

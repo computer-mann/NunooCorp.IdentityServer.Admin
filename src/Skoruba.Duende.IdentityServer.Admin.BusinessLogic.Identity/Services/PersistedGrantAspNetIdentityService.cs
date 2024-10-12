@@ -2,16 +2,16 @@
 // Licensed under the Apache License, Version 2.0.
 
 using System.Threading.Tasks;
-using Skoruba.AuditLogging.Services;
-using Skoruba.Duende.IdentityServer.Admin.BusinessLogic.Identity.Dtos.Grant;
-using Skoruba.Duende.IdentityServer.Admin.BusinessLogic.Identity.Events.PersistedGrant;
-using Skoruba.Duende.IdentityServer.Admin.BusinessLogic.Identity.Mappers;
-using Skoruba.Duende.IdentityServer.Admin.BusinessLogic.Identity.Resources;
-using Skoruba.Duende.IdentityServer.Admin.BusinessLogic.Identity.Services.Interfaces;
-using Skoruba.Duende.IdentityServer.Admin.BusinessLogic.Shared.ExceptionHandling;
-using Skoruba.Duende.IdentityServer.Admin.EntityFramework.Identity.Repositories.Interfaces;
+using PrinceHarry.AuditLogging.Services;
+using PrinceHarry.Duende.IdentityServer.Admin.BusinessLogic.Identity.Dtos.Grant;
+using PrinceHarry.Duende.IdentityServer.Admin.BusinessLogic.Identity.Events.PersistedGrant;
+using PrinceHarry.Duende.IdentityServer.Admin.BusinessLogic.Identity.Mappers;
+using PrinceHarry.Duende.IdentityServer.Admin.BusinessLogic.Identity.Resources;
+using PrinceHarry.Duende.IdentityServer.Admin.BusinessLogic.Identity.Services.Interfaces;
+using PrinceHarry.Duende.IdentityServer.Admin.BusinessLogic.Shared.ExceptionHandling;
+using PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Identity.Repositories.Interfaces;
 
-namespace Skoruba.Duende.IdentityServer.Admin.BusinessLogic.Identity.Services
+namespace PrinceHarry.Duende.IdentityServer.Admin.BusinessLogic.Identity.Services
 {
     public class PersistedGrantAspNetIdentityService : IPersistedGrantAspNetIdentityService
     {

@@ -3,7 +3,7 @@
 
 using AutoMapper;
 
-namespace Skoruba.Duende.IdentityServer.Admin.UI.Api.Mappers
+namespace PrinceHarry.Duende.IdentityServer.Admin.UI.Api.Mappers
 {
     public static class ApiResourceApiMappers
     {

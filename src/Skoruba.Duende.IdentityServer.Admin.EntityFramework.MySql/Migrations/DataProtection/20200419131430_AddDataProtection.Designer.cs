@@ -3,9 +3,9 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Migrations;
-using Skoruba.Duende.IdentityServer.Admin.EntityFramework.Shared.DbContexts;
+using PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Shared.DbContexts;
 
-namespace Skoruba.Duende.IdentityServer.Admin.EntityFramework.MySql.Migrations.DataProtection
+namespace PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.MySql.Migrations.DataProtection
 {
     [DbContext(typeof(IdentityServerDataProtectionDbContext))]
     [Migration("20200419131430_AddDataProtection")]

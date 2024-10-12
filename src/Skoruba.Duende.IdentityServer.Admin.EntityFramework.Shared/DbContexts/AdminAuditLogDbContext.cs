@@ -3,10 +3,10 @@
 
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
-using Skoruba.AuditLogging.EntityFramework.DbContexts;
-using Skoruba.AuditLogging.EntityFramework.Entities;
+using PrinceHarry.AuditLogging.EntityFramework.DbContexts;
+using PrinceHarry.AuditLogging.EntityFramework.Entities;
 
-namespace Skoruba.Duende.IdentityServer.Admin.EntityFramework.Shared.DbContexts
+namespace PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Shared.DbContexts
 {
     public class AdminAuditLogDbContext : DbContext, IAuditLoggingDbContext<AuditLog>
     {

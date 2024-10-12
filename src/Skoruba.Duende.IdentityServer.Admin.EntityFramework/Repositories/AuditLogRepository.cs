@@ -7,15 +7,15 @@ using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
-using Skoruba.AuditLogging.EntityFramework.DbContexts;
-using Skoruba.AuditLogging.EntityFramework.Entities;
-using Skoruba.Duende.IdentityServer.Admin.EntityFramework.Entities;
-using Skoruba.Duende.IdentityServer.Admin.EntityFramework.Extensions.Common;
-using Skoruba.Duende.IdentityServer.Admin.EntityFramework.Extensions.Enums;
-using Skoruba.Duende.IdentityServer.Admin.EntityFramework.Extensions.Extensions;
-using Skoruba.Duende.IdentityServer.Admin.EntityFramework.Repositories.Interfaces;
+using PrinceHarry.AuditLogging.EntityFramework.DbContexts;
+using PrinceHarry.AuditLogging.EntityFramework.Entities;
+using PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Entities;
+using PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Extensions.Common;
+using PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Extensions.Enums;
+using PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Extensions.Extensions;
+using PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Repositories.Interfaces;
 
-namespace Skoruba.Duende.IdentityServer.Admin.EntityFramework.Repositories
+namespace PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Repositories
 {
     public class AuditLogRepository<TDbContext, TAuditLog> : IAuditLogRepository<TAuditLog>
         where TDbContext : IAuditLoggingDbContext<TAuditLog>

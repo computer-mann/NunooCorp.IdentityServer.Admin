@@ -2,11 +2,11 @@
 // Licensed under the Apache License, Version 2.0.
 
 using Microsoft.EntityFrameworkCore;
-using Skoruba.Duende.IdentityServer.Admin.EntityFramework.Constants;
-using Skoruba.Duende.IdentityServer.Admin.EntityFramework.Entities;
-using Skoruba.Duende.IdentityServer.Admin.EntityFramework.Interfaces;
+using PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Constants;
+using PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Entities;
+using PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Interfaces;
 
-namespace Skoruba.Duende.IdentityServer.Admin.EntityFramework.Shared.DbContexts
+namespace PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Shared.DbContexts
 {
     public class AdminLogDbContext : DbContext, IAdminLogDbContext
     {

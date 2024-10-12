@@ -1,8 +1,8 @@
 ﻿using System;
 using Bogus;
-using Skoruba.Duende.IdentityServer.Admin.BusinessLogic.Dtos.Key;
+using PrinceHarry.Duende.IdentityServer.Admin.BusinessLogic.Dtos.Key;
 
-namespace Skoruba.Duende.IdentityServer.Admin.UnitTests.Mocks
+namespace PrinceHarry.Duende.IdentityServer.Admin.UnitTests.Mocks
 {
     public class KeyDtoMock
     {

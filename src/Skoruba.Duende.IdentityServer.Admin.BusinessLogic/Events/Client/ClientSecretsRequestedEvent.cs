@@ -3,9 +3,9 @@
 
 using System;
 using System.Collections.Generic;
-using Skoruba.AuditLogging.Events;
+using PrinceHarry.AuditLogging.Events;
 
-namespace Skoruba.Duende.IdentityServer.Admin.BusinessLogic.Events.Client
+namespace PrinceHarry.Duende.IdentityServer.Admin.BusinessLogic.Events.Client
 {
     public class ClientSecretsRequestedEvent : AuditEvent
     {

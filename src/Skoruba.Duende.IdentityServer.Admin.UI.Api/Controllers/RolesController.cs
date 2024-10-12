@@ -8,15 +8,15 @@ using AutoMapper;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
-using Skoruba.Duende.IdentityServer.Admin.BusinessLogic.Identity.Dtos.Identity;
-using Skoruba.Duende.IdentityServer.Admin.BusinessLogic.Identity.Services.Interfaces;
-using Skoruba.Duende.IdentityServer.Admin.UI.Api.Configuration.Constants;
-using Skoruba.Duende.IdentityServer.Admin.UI.Api.Dtos.Roles;
-using Skoruba.Duende.IdentityServer.Admin.UI.Api.ExceptionHandling;
-using Skoruba.Duende.IdentityServer.Admin.UI.Api.Helpers.Localization;
-using Skoruba.Duende.IdentityServer.Admin.UI.Api.Resources;
+using PrinceHarry.Duende.IdentityServer.Admin.BusinessLogic.Identity.Dtos.Identity;
+using PrinceHarry.Duende.IdentityServer.Admin.BusinessLogic.Identity.Services.Interfaces;
+using PrinceHarry.Duende.IdentityServer.Admin.UI.Api.Configuration.Constants;
+using PrinceHarry.Duende.IdentityServer.Admin.UI.Api.Dtos.Roles;
+using PrinceHarry.Duende.IdentityServer.Admin.UI.Api.ExceptionHandling;
+using PrinceHarry.Duende.IdentityServer.Admin.UI.Api.Helpers.Localization;
+using PrinceHarry.Duende.IdentityServer.Admin.UI.Api.Resources;
 
-namespace Skoruba.Duende.IdentityServer.Admin.UI.Api.Controllers
+namespace PrinceHarry.Duende.IdentityServer.Admin.UI.Api.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]

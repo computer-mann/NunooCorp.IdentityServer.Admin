@@ -4,7 +4,7 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Localization;
 
-namespace Skoruba.Duende.IdentityServer.Admin.UI.Helpers.Identity
+namespace PrinceHarry.Duende.IdentityServer.Admin.UI.Helpers.Identity
 {
     /// <inheritdoc />
     /// <summary>

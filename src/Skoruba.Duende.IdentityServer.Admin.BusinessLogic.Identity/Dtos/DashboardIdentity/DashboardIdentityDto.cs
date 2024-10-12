@@ -1,4 +1,4 @@
-namespace Skoruba.Duende.IdentityServer.Admin.BusinessLogic.Identity.Dtos.DashboardIdentity;
+namespace PrinceHarry.Duende.IdentityServer.Admin.BusinessLogic.Identity.Dtos.DashboardIdentity;
 
 public class DashboardIdentityDto
 {

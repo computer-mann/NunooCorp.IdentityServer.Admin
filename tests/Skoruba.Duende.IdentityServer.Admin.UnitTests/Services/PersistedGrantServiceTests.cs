@@ -8,18 +8,18 @@ using FluentAssertions;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Moq;
-using Skoruba.AuditLogging.Services;
-using Skoruba.Duende.IdentityServer.Admin.BusinessLogic.Identity.Resources;
-using Skoruba.Duende.IdentityServer.Admin.BusinessLogic.Identity.Services;
-using Skoruba.Duende.IdentityServer.Admin.BusinessLogic.Identity.Services.Interfaces;
-using Skoruba.Duende.IdentityServer.Admin.EntityFramework.Identity.Repositories;
-using Skoruba.Duende.IdentityServer.Admin.EntityFramework.Identity.Repositories.Interfaces;
-using Skoruba.Duende.IdentityServer.Admin.EntityFramework.Shared.DbContexts;
-using Skoruba.Duende.IdentityServer.Admin.EntityFramework.Shared.Entities.Identity;
-using Skoruba.Duende.IdentityServer.Admin.UnitTests.Mocks;
+using PrinceHarry.AuditLogging.Services;
+using PrinceHarry.Duende.IdentityServer.Admin.BusinessLogic.Identity.Resources;
+using PrinceHarry.Duende.IdentityServer.Admin.BusinessLogic.Identity.Services;
+using PrinceHarry.Duende.IdentityServer.Admin.BusinessLogic.Identity.Services.Interfaces;
+using PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Identity.Repositories;
+using PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Identity.Repositories.Interfaces;
+using PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Shared.DbContexts;
+using PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Shared.Entities.Identity;
+using PrinceHarry.Duende.IdentityServer.Admin.UnitTests.Mocks;
 using Xunit;
 
-namespace Skoruba.Duende.IdentityServer.Admin.UnitTests.Services
+namespace PrinceHarry.Duende.IdentityServer.Admin.UnitTests.Services
 {
     public class PersistedGrantServiceTests
     {

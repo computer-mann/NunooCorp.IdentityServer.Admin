@@ -2,9 +2,9 @@
 
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
-using Skoruba.Duende.IdentityServer.Admin.EntityFramework.Shared.DbContexts;
+using PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Shared.DbContexts;
 
-namespace Skoruba.Duende.IdentityServer.Admin.EntityFramework.MySql.Migrations.DataProtection
+namespace PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.MySql.Migrations.DataProtection
 {
     [DbContext(typeof(IdentityServerDataProtectionDbContext))]
     partial class IdentityServerDataProtectionDbContextModelSnapshot : ModelSnapshot

@@ -4,9 +4,9 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.FileProviders;
 using Microsoft.Extensions.Hosting;
-using Skoruba.Duende.IdentityServer.Admin.UI.Helpers.ApplicationBuilder;
+using PrinceHarry.Duende.IdentityServer.Admin.UI.Helpers.ApplicationBuilder;
 
-namespace Skoruba.Duende.IdentityServer.Admin.Helpers
+namespace PrinceHarry.Duende.IdentityServer.Admin.Helpers
 {
     public static class StartupHelpers
     {

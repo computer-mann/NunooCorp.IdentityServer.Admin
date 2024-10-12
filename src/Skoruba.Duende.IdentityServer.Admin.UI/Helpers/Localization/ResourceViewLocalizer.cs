@@ -13,7 +13,7 @@ using Microsoft.AspNetCore.Mvc.ViewFeatures;
 using Microsoft.Extensions.FileProviders;
 using Microsoft.Extensions.Localization;
 
-namespace Skoruba.Duende.IdentityServer.Admin.UI.Helpers.Localization
+namespace PrinceHarry.Duende.IdentityServer.Admin.UI.Helpers.Localization
 {
 	public class ResourceViewLocalizer : IViewLocalizer, IViewContextAware
 	{

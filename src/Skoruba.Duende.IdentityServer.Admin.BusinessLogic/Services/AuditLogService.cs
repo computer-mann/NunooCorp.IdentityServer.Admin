@@ -6,14 +6,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
-using Skoruba.AuditLogging.EntityFramework.Entities;
-using Skoruba.Duende.IdentityServer.Admin.BusinessLogic.Dtos.Dashboard;
-using Skoruba.Duende.IdentityServer.Admin.BusinessLogic.Dtos.Log;
-using Skoruba.Duende.IdentityServer.Admin.BusinessLogic.Mappers;
-using Skoruba.Duende.IdentityServer.Admin.BusinessLogic.Services.Interfaces;
-using Skoruba.Duende.IdentityServer.Admin.EntityFramework.Repositories.Interfaces;
+using PrinceHarry.AuditLogging.EntityFramework.Entities;
+using PrinceHarry.Duende.IdentityServer.Admin.BusinessLogic.Dtos.Dashboard;
+using PrinceHarry.Duende.IdentityServer.Admin.BusinessLogic.Dtos.Log;
+using PrinceHarry.Duende.IdentityServer.Admin.BusinessLogic.Mappers;
+using PrinceHarry.Duende.IdentityServer.Admin.BusinessLogic.Services.Interfaces;
+using PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Repositories.Interfaces;
 
-namespace Skoruba.Duende.IdentityServer.Admin.BusinessLogic.Services
+namespace PrinceHarry.Duende.IdentityServer.Admin.BusinessLogic.Services
 {
     public class AuditLogService<TAuditLog> : IAuditLogService
         where TAuditLog : AuditLog

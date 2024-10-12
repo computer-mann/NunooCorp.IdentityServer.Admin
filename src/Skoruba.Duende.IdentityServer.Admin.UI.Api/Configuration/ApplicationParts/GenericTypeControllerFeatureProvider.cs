@@ -9,9 +9,9 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.ApplicationParts;
 using Microsoft.AspNetCore.Mvc.Controllers;
-using Skoruba.Duende.IdentityServer.Admin.BusinessLogic.Identity.Dtos.Identity;
+using PrinceHarry.Duende.IdentityServer.Admin.BusinessLogic.Identity.Dtos.Identity;
 
-namespace Skoruba.Duende.IdentityServer.Admin.UI.Api.Configuration.ApplicationParts
+namespace PrinceHarry.Duende.IdentityServer.Admin.UI.Api.Configuration.ApplicationParts
 {
     public class GenericTypeControllerFeatureProvider<TUserDto, TRoleDto, TUser, TRole, TKey, TUserClaim, TUserRole, TUserLogin, TRoleClaim, TUserToken,
         TUsersDto, TRolesDto, TUserRolesDto, TUserClaimsDto,

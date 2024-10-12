@@ -10,11 +10,11 @@ using Duende.IdentityServer.Services;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Localization;
 using Microsoft.AspNetCore.Mvc;
-using Skoruba.Duende.IdentityServer.Shared.Configuration.Helpers;
-using Skoruba.Duende.IdentityServer.STS.Identity.Helpers;
-using Skoruba.Duende.IdentityServer.STS.Identity.ViewModels.Home;
+using PrinceHarry.Duende.IdentityServer.Shared.Configuration.Helpers;
+using PrinceHarry.Duende.IdentityServer.STS.Identity.Helpers;
+using PrinceHarry.Duende.IdentityServer.STS.Identity.ViewModels.Home;
 
-namespace Skoruba.Duende.IdentityServer.STS.Identity.Controllers
+namespace PrinceHarry.Duende.IdentityServer.STS.Identity.Controllers
 {
     [SecurityHeaders]
     public class HomeController : Controller

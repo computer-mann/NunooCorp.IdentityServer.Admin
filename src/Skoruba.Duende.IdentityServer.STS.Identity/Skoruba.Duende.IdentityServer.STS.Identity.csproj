@@ -41,15 +41,15 @@
 		<PackageReference Include="Serilog.Sinks.File" Version="6.0.0" />
 		<PackageReference Include="Serilog.Sinks.MSSqlServer" Version="7.0.1" />
 		<PackageReference Include="Serilog.Sinks.Seq" Version="8.0.0" />
-		<PackageReference Include="Skoruba.AuditLogging.EntityFramework" Version="2.0.0" />
+		<PackageReference Include="PrinceHarry.AuditLogging.EntityFramework" Version="2.0.0" />
 		<PackageReference Include="NWebsec.AspNetCore.Middleware" Version="3.0.0" />
     </ItemGroup>
 
     <ItemGroup>
-        <ProjectReference Include="..\Skoruba.Duende.IdentityServer.Admin.EntityFramework.Configuration\Skoruba.Duende.IdentityServer.Admin.EntityFramework.Configuration.csproj" />
-        <ProjectReference Include="..\Skoruba.Duende.IdentityServer.Admin.EntityFramework.Shared\Skoruba.Duende.IdentityServer.Admin.EntityFramework.Shared.csproj" />
-        <ProjectReference Include="..\Skoruba.Duende.IdentityServer.Shared.Configuration\Skoruba.Duende.IdentityServer.Shared.Configuration.csproj" />
-        <ProjectReference Include="..\Skoruba.Duende.IdentityServer.Shared\Skoruba.Duende.IdentityServer.Shared.csproj" />
+        <ProjectReference Include="..\PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Configuration\PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Configuration.csproj" />
+        <ProjectReference Include="..\PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Shared\PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Shared.csproj" />
+        <ProjectReference Include="..\PrinceHarry.Duende.IdentityServer.Shared.Configuration\PrinceHarry.Duende.IdentityServer.Shared.Configuration.csproj" />
+        <ProjectReference Include="..\PrinceHarry.Duende.IdentityServer.Shared\PrinceHarry.Duende.IdentityServer.Shared.csproj" />
     </ItemGroup>
 
     <ItemGroup>

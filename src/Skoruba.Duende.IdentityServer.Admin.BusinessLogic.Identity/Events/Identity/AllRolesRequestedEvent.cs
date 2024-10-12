@@ -2,9 +2,9 @@
 // Licensed under the Apache License, Version 2.0.
 
 using System.Collections.Generic;
-using Skoruba.AuditLogging.Events;
+using PrinceHarry.AuditLogging.Events;
 
-namespace Skoruba.Duende.IdentityServer.Admin.BusinessLogic.Identity.Events.Identity
+namespace PrinceHarry.Duende.IdentityServer.Admin.BusinessLogic.Identity.Events.Identity
 {
     public class AllRolesRequestedEvent<TRoleDto> : AuditEvent
     {

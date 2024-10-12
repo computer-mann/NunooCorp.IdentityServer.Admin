@@ -3,10 +3,10 @@
 
 using System.Linq;
 using Microsoft.AspNetCore.Http;
-using Skoruba.AuditLogging.Constants;
-using Skoruba.AuditLogging.Events;
+using PrinceHarry.AuditLogging.Constants;
+using PrinceHarry.AuditLogging.Events;
 
-namespace Skoruba.Duende.IdentityServer.Admin.UI.Api.Configuration.AuditLogging
+namespace PrinceHarry.Duende.IdentityServer.Admin.UI.Api.Configuration.AuditLogging
 {
     public class ApiAuditSubject : IAuditSubject
     {

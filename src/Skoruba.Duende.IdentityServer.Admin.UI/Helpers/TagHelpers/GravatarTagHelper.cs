@@ -3,7 +3,7 @@
 
 using Microsoft.AspNetCore.Razor.TagHelpers;
 
-namespace Skoruba.Duende.IdentityServer.Admin.UI.Helpers.TagHelpers
+namespace PrinceHarry.Duende.IdentityServer.Admin.UI.Helpers.TagHelpers
 {
     [HtmlTargetElement("img-gravatar")]
     public class GravatarTagHelper : TagHelper

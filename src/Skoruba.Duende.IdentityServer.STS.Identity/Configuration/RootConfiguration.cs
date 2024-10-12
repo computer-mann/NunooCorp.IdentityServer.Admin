@@ -1,10 +1,10 @@
 ﻿// Copyright (c) Jan Škoruba. All Rights Reserved.
 // Licensed under the Apache License, Version 2.0.
 
-using Skoruba.Duende.IdentityServer.Shared.Configuration.Configuration.Identity;
-using Skoruba.Duende.IdentityServer.STS.Identity.Configuration.Interfaces;
+using PrinceHarry.Duende.IdentityServer.Shared.Configuration.Configuration.Identity;
+using PrinceHarry.Duende.IdentityServer.STS.Identity.Configuration.Interfaces;
 
-namespace Skoruba.Duende.IdentityServer.STS.Identity.Configuration
+namespace PrinceHarry.Duende.IdentityServer.STS.Identity.Configuration
 {
     public class RootConfiguration : IRootConfiguration
     {      

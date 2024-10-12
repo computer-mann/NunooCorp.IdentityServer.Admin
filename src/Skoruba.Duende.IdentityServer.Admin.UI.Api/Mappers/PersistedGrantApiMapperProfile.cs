@@ -2,10 +2,10 @@
 // Licensed under the Apache License, Version 2.0.
 
 using AutoMapper;
-using Skoruba.Duende.IdentityServer.Admin.BusinessLogic.Dtos.Grant;
-using Skoruba.Duende.IdentityServer.Admin.UI.Api.Dtos.PersistedGrants;
+using PrinceHarry.Duende.IdentityServer.Admin.BusinessLogic.Dtos.Grant;
+using PrinceHarry.Duende.IdentityServer.Admin.UI.Api.Dtos.PersistedGrants;
 
-namespace Skoruba.Duende.IdentityServer.Admin.UI.Api.Mappers
+namespace PrinceHarry.Duende.IdentityServer.Admin.UI.Api.Mappers
 {
     public class PersistedGrantApiMapperProfile : Profile
     {

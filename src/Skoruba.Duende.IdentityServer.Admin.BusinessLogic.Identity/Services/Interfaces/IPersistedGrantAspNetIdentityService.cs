@@ -2,9 +2,9 @@
 // Licensed under the Apache License, Version 2.0.
 
 using System.Threading.Tasks;
-using Skoruba.Duende.IdentityServer.Admin.BusinessLogic.Identity.Dtos.Grant;
+using PrinceHarry.Duende.IdentityServer.Admin.BusinessLogic.Identity.Dtos.Grant;
 
-namespace Skoruba.Duende.IdentityServer.Admin.BusinessLogic.Identity.Services.Interfaces
+namespace PrinceHarry.Duende.IdentityServer.Admin.BusinessLogic.Identity.Services.Interfaces
 {
     public interface IPersistedGrantAspNetIdentityService
     {

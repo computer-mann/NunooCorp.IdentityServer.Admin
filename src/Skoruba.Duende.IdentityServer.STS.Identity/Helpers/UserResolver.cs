@@ -3,9 +3,9 @@
 
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Identity;
-using Skoruba.Duende.IdentityServer.Shared.Configuration.Configuration.Identity;
+using PrinceHarry.Duende.IdentityServer.Shared.Configuration.Configuration.Identity;
 
-namespace Skoruba.Duende.IdentityServer.STS.Identity.Helpers
+namespace PrinceHarry.Duende.IdentityServer.STS.Identity.Helpers
 {
     public class UserResolver<TUser> where TUser : class
     {

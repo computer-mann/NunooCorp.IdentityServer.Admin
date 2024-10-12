@@ -10,11 +10,11 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.MySql\PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.MySql.csproj" />
-      <ProjectReference Include="..\PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.PostgreSQL\PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.PostgreSQL.csproj" />
-      <ProjectReference Include="..\PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.SqlServer\PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.SqlServer.csproj" />
-      <ProjectReference Include="..\PrinceHarry.Duende.IdentityServer.Admin.UI.Api\PrinceHarry.Duende.IdentityServer.Admin.UI.Api.csproj" />
-      <ProjectReference Include="..\PrinceHarry.Duende.IdentityServer.Shared\PrinceHarry.Duende.IdentityServer.Shared.csproj" />
+      <ProjectReference Include="..\PrinceHarryPrinceHarry.Duende.IdentityServer.Admin.EntityFramework.MySql\PrinceHarryPrinceHarry.Duende.IdentityServer.Admin.EntityFramework.MySql.csproj" />
+      <ProjectReference Include="..\PrinceHarryPrinceHarry.Duende.IdentityServer.Admin.EntityFramework.PostgreSQL\PrinceHarryPrinceHarry.Duende.IdentityServer.Admin.EntityFramework.PostgreSQL.csproj" />
+      <ProjectReference Include="..\PrinceHarryPrinceHarry.Duende.IdentityServer.Admin.EntityFramework.SqlServer\PrinceHarryPrinceHarry.Duende.IdentityServer.Admin.EntityFramework.SqlServer.csproj" />
+      <ProjectReference Include="..\PrinceHarryPrinceHarry.Duende.IdentityServer.Admin.UI.Api\PrinceHarryPrinceHarry.Duende.IdentityServer.Admin.UI.Api.csproj" />
+      <ProjectReference Include="..\PrinceHarryPrinceHarry.Duende.IdentityServer.Shared\PrinceHarryPrinceHarry.Duende.IdentityServer.Shared.csproj" />
     </ItemGroup>
 
     

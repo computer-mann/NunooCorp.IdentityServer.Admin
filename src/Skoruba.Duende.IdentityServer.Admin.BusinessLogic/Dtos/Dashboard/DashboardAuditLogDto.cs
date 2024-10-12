@@ -1,6 +1,6 @@
 using System;
 
-namespace Skoruba.Duende.IdentityServer.Admin.BusinessLogic.Dtos.Dashboard;
+namespace PrinceHarry.Duende.IdentityServer.Admin.BusinessLogic.Dtos.Dashboard;
 
 public class DashboardAuditLogDto
 {

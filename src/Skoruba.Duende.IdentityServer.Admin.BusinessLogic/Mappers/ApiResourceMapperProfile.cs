@@ -6,11 +6,11 @@
 using System.Linq;
 using AutoMapper;
 using Duende.IdentityServer.EntityFramework.Entities;
-using Skoruba.Duende.IdentityServer.Admin.BusinessLogic.Dtos.Configuration;
-using Skoruba.Duende.IdentityServer.Admin.BusinessLogic.Mappers.Converters;
-using Skoruba.Duende.IdentityServer.Admin.EntityFramework.Extensions.Common;
+using PrinceHarry.Duende.IdentityServer.Admin.BusinessLogic.Dtos.Configuration;
+using PrinceHarry.Duende.IdentityServer.Admin.BusinessLogic.Mappers.Converters;
+using PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Extensions.Common;
 
-namespace Skoruba.Duende.IdentityServer.Admin.BusinessLogic.Mappers
+namespace PrinceHarry.Duende.IdentityServer.Admin.BusinessLogic.Mappers
 {
     public class ApiResourceMapperProfile : Profile
     {

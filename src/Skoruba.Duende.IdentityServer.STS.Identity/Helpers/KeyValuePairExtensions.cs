@@ -1,4 +1,4 @@
-﻿namespace Skoruba.Duende.IdentityServer.STS.Identity.Helpers
+﻿namespace PrinceHarry.Duende.IdentityServer.STS.Identity.Helpers
 {
     public static class KeyValuePairExtensions
     {

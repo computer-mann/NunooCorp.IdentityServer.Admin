@@ -5,9 +5,9 @@ using System.Net.Http;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc.Testing;
 using Microsoft.AspNetCore.TestHost;
-using Skoruba.Duende.IdentityServer.Admin.Configuration.Test;
+using PrinceHarry.Duende.IdentityServer.Admin.Configuration.Test;
 
-namespace Skoruba.Duende.IdentityServer.Admin.IntegrationTests.Common
+namespace PrinceHarry.Duende.IdentityServer.Admin.IntegrationTests.Common
 {
     public static class WebApplicationFactoryExtensions
     {

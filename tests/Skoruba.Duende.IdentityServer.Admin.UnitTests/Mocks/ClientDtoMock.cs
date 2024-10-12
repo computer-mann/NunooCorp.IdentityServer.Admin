@@ -5,10 +5,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using Bogus;
-using Skoruba.Duende.IdentityServer.Admin.BusinessLogic.Dtos.Configuration;
-using Skoruba.Duende.IdentityServer.Admin.EntityFramework.Constants;
+using PrinceHarry.Duende.IdentityServer.Admin.BusinessLogic.Dtos.Configuration;
+using PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Constants;
 
-namespace Skoruba.Duende.IdentityServer.Admin.UnitTests.Mocks
+namespace PrinceHarry.Duende.IdentityServer.Admin.UnitTests.Mocks
 {
     public static class ClientDtoMock
     {

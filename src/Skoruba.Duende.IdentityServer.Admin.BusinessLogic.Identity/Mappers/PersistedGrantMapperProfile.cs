@@ -3,11 +3,11 @@
 
 using AutoMapper;
 using Duende.IdentityServer.EntityFramework.Entities;
-using Skoruba.Duende.IdentityServer.Admin.BusinessLogic.Identity.Dtos.Grant;
-using Skoruba.Duende.IdentityServer.Admin.EntityFramework.Entities;
-using Skoruba.Duende.IdentityServer.Admin.EntityFramework.Extensions.Common;
+using PrinceHarry.Duende.IdentityServer.Admin.BusinessLogic.Identity.Dtos.Grant;
+using PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Entities;
+using PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Extensions.Common;
 
-namespace Skoruba.Duende.IdentityServer.Admin.BusinessLogic.Identity.Mappers
+namespace PrinceHarry.Duende.IdentityServer.Admin.BusinessLogic.Identity.Mappers
 {
     public class PersistedGrantMapperProfile : Profile
     {

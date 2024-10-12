@@ -4,7 +4,7 @@
 // Original file: https://github.com/DuendeSoftware/IdentityServer.Quickstart.UI
 // Modified by Jan Škoruba
 
-namespace Skoruba.Duende.IdentityServer.STS.Identity.ViewModels.Account
+namespace PrinceHarry.Duende.IdentityServer.STS.Identity.ViewModels.Account
 {
     public class LogoutInputModel
     {

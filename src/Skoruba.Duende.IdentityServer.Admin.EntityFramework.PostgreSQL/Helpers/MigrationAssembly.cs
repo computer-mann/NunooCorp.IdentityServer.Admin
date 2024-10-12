@@ -1,4 +1,4 @@
-﻿namespace Skoruba.Duende.IdentityServer.Admin.EntityFramework.PostgreSQL.Helpers
+﻿namespace PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.PostgreSQL.Helpers
 {
     public class MigrationAssembly
     {

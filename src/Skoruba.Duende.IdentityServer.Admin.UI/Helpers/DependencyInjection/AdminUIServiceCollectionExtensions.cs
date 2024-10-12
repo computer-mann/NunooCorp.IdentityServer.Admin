@@ -9,21 +9,21 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
-using Skoruba.AuditLogging.EntityFramework.DbContexts;
-using Skoruba.AuditLogging.EntityFramework.Entities;
-using Skoruba.Duende.IdentityServer.Admin.BusinessLogic.Extensions;
-using Skoruba.Duende.IdentityServer.Admin.BusinessLogic.Identity.Dtos.Identity;
-using Skoruba.Duende.IdentityServer.Admin.BusinessLogic.Identity.Extensions;
-using Skoruba.Duende.IdentityServer.Admin.EntityFramework.Interfaces;
-using Skoruba.Duende.IdentityServer.Shared.Configuration.Helpers;
-using static Skoruba.Duende.IdentityServer.Admin.UI.Helpers.StartupHelpers;
+using PrinceHarry.AuditLogging.EntityFramework.DbContexts;
+using PrinceHarry.AuditLogging.EntityFramework.Entities;
+using PrinceHarry.Duende.IdentityServer.Admin.BusinessLogic.Extensions;
+using PrinceHarry.Duende.IdentityServer.Admin.BusinessLogic.Identity.Dtos.Identity;
+using PrinceHarry.Duende.IdentityServer.Admin.BusinessLogic.Identity.Extensions;
+using PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Interfaces;
+using PrinceHarry.Duende.IdentityServer.Shared.Configuration.Helpers;
+using static PrinceHarry.Duende.IdentityServer.Admin.UI.Helpers.StartupHelpers;
 
-namespace Skoruba.Duende.IdentityServer.Admin.UI.Helpers.DependencyInjection
+namespace PrinceHarry.Duende.IdentityServer.Admin.UI.Helpers.DependencyInjection
 {
     public static class AdminUIServiceCollectionExtensions
     {
         /// <summary>
-        /// Adds the Skoruba Duende IdentityServer Admin UI with the default entity model.
+        /// Adds the PrinceHarry Duende IdentityServer Admin UI with the default entity model.
         /// </summary>
         /// <param name="services"></param>
         /// <param name="optionsAction"></param>
@@ -44,7 +44,7 @@ namespace Skoruba.Duende.IdentityServer.Admin.UI.Helpers.DependencyInjection
                 UserChangePasswordDto<string>, RoleClaimsDto<RoleClaimDto<string>, string>, UserClaimDto<string>, RoleClaimDto<string>>(services, optionsAction);
 
         /// <summary>
-        /// Adds the Skoruba Duende IdentityServer Admin UI with a custom user model and database context.
+        /// Adds the PrinceHarry Duende IdentityServer Admin UI with a custom user model and database context.
         /// </summary>
         /// <typeparam name="TIdentityDbContext"></typeparam>
         /// <typeparam name="TUser"></typeparam>
@@ -69,7 +69,7 @@ namespace Skoruba.Duende.IdentityServer.Admin.UI.Helpers.DependencyInjection
                 UserChangePasswordDto<string>, RoleClaimsDto<RoleClaimDto<string>, string>, UserClaimDto<string>, RoleClaimDto<string>>(services, optionsAction);
 
         /// <summary>
-        /// Adds the Skoruba Duende IdentityServer Admin UI with a fully custom entity model and database contexts.
+        /// Adds the PrinceHarry Duende IdentityServer Admin UI with a fully custom entity model and database contexts.
         /// </summary>
         /// <param name="services"></param>
         /// <param name="optionsAction"></param>

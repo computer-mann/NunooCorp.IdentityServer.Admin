@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Net.Http;
 
-namespace Skoruba.Duende.IdentityServer.STS.Identity.IntegrationTests.Common
+namespace PrinceHarry.Duende.IdentityServer.STS.Identity.IntegrationTests.Common
 {
     public class RequestHelper
     {

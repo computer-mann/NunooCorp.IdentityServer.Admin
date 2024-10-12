@@ -16,11 +16,11 @@ using Duende.IdentityServer.Validation;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using Skoruba.Duende.IdentityServer.STS.Identity.Configuration;
-using Skoruba.Duende.IdentityServer.STS.Identity.Helpers;
-using Skoruba.Duende.IdentityServer.STS.Identity.ViewModels.Consent;
+using PrinceHarry.Duende.IdentityServer.STS.Identity.Configuration;
+using PrinceHarry.Duende.IdentityServer.STS.Identity.Helpers;
+using PrinceHarry.Duende.IdentityServer.STS.Identity.ViewModels.Consent;
 
-namespace Skoruba.Duende.IdentityServer.STS.Identity.Controllers
+namespace PrinceHarry.Duende.IdentityServer.STS.Identity.Controllers
 {
     /// <summary>
     /// This controller processes the consent UI

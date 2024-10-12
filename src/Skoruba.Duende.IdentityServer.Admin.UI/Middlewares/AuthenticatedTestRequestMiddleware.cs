@@ -7,7 +7,7 @@ using System.Security.Claims;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 
-namespace Skoruba.Duende.IdentityServer.Admin.UI.Middlewares
+namespace PrinceHarry.Duende.IdentityServer.Admin.UI.Middlewares
 {
     public class AuthenticatedTestRequestMiddleware
     {

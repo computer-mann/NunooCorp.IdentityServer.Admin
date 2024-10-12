@@ -4,10 +4,10 @@
 using System.Collections.Generic;
 using AutoMapper;
 using Duende.IdentityServer.EntityFramework.Entities;
-using Skoruba.Duende.IdentityServer.Admin.BusinessLogic.Dtos.IdentityProvider;
-using Skoruba.Duende.IdentityServer.Admin.EntityFramework.Extensions.Common;
+using PrinceHarry.Duende.IdentityServer.Admin.BusinessLogic.Dtos.IdentityProvider;
+using PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Extensions.Common;
 
-namespace Skoruba.Duende.IdentityServer.Admin.BusinessLogic.Mappers
+namespace PrinceHarry.Duende.IdentityServer.Admin.BusinessLogic.Mappers
 {
     public static class IdentityProviderMappers
     {

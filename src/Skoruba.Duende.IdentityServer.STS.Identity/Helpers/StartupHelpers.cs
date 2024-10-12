@@ -22,22 +22,22 @@ using Microsoft.Extensions.DependencyInjection.Extensions;
 using Microsoft.Extensions.Options;
 using Microsoft.Identity.Web;
 using Microsoft.IdentityModel.Tokens;
-using Skoruba.Duende.IdentityServer.Admin.EntityFramework.Configuration.Configuration;
-using Skoruba.Duende.IdentityServer.Admin.EntityFramework.Configuration.MySql;
-using Skoruba.Duende.IdentityServer.Admin.EntityFramework.Configuration.PostgreSQL;
-using Skoruba.Duende.IdentityServer.Admin.EntityFramework.Configuration.SqlServer;
-using Skoruba.Duende.IdentityServer.Admin.EntityFramework.Helpers;
-using Skoruba.Duende.IdentityServer.Admin.EntityFramework.Interfaces;
-using Skoruba.Duende.IdentityServer.Shared.Configuration.Authentication;
-using Skoruba.Duende.IdentityServer.Shared.Configuration.Configuration.Identity;
-using Skoruba.Duende.IdentityServer.STS.Identity.Configuration;
-using Skoruba.Duende.IdentityServer.STS.Identity.Configuration.ApplicationParts;
-using Skoruba.Duende.IdentityServer.STS.Identity.Configuration.Constants;
-using Skoruba.Duende.IdentityServer.STS.Identity.Configuration.Interfaces;
-using Skoruba.Duende.IdentityServer.STS.Identity.Helpers.Localization;
-using Skoruba.Duende.IdentityServer.STS.Identity.Services;
+using PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Configuration.Configuration;
+using PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Configuration.MySql;
+using PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Configuration.PostgreSQL;
+using PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Configuration.SqlServer;
+using PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Helpers;
+using PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Interfaces;
+using PrinceHarry.Duende.IdentityServer.Shared.Configuration.Authentication;
+using PrinceHarry.Duende.IdentityServer.Shared.Configuration.Configuration.Identity;
+using PrinceHarry.Duende.IdentityServer.STS.Identity.Configuration;
+using PrinceHarry.Duende.IdentityServer.STS.Identity.Configuration.ApplicationParts;
+using PrinceHarry.Duende.IdentityServer.STS.Identity.Configuration.Constants;
+using PrinceHarry.Duende.IdentityServer.STS.Identity.Configuration.Interfaces;
+using PrinceHarry.Duende.IdentityServer.STS.Identity.Helpers.Localization;
+using PrinceHarry.Duende.IdentityServer.STS.Identity.Services;
 
-namespace Skoruba.Duende.IdentityServer.STS.Identity.Helpers
+namespace PrinceHarry.Duende.IdentityServer.STS.Identity.Helpers
 {
     public static class StartupHelpers
     {

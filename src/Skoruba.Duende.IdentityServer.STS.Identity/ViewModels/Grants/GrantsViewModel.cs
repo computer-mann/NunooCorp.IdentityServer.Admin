@@ -7,7 +7,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Skoruba.Duende.IdentityServer.STS.Identity.ViewModels.Grants
+namespace PrinceHarry.Duende.IdentityServer.STS.Identity.ViewModels.Grants
 {
     public class GrantsViewModel
     {

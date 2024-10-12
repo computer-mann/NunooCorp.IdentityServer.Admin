@@ -3,7 +3,7 @@
 
 using System.ComponentModel.DataAnnotations;
 
-namespace Skoruba.Duende.IdentityServer.Admin.BusinessLogic.Dtos.Configuration
+namespace PrinceHarry.Duende.IdentityServer.Admin.BusinessLogic.Dtos.Configuration
 {
 	public class ClientClaimDto
 	{

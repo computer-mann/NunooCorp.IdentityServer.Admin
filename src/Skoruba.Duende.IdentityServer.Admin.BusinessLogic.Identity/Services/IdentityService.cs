@@ -8,17 +8,17 @@ using System.Linq;
 using System.Threading.Tasks;
 using AutoMapper;
 using Microsoft.AspNetCore.Identity;
-using Skoruba.AuditLogging.Services;
-using Skoruba.Duende.IdentityServer.Admin.BusinessLogic.Identity.Dtos.Identity;
-using Skoruba.Duende.IdentityServer.Admin.BusinessLogic.Identity.Events.Identity;
-using Skoruba.Duende.IdentityServer.Admin.BusinessLogic.Identity.Resources;
-using Skoruba.Duende.IdentityServer.Admin.BusinessLogic.Identity.Services.Interfaces;
-using Skoruba.Duende.IdentityServer.Admin.BusinessLogic.Shared.Dtos.Common;
-using Skoruba.Duende.IdentityServer.Admin.BusinessLogic.Shared.ExceptionHandling;
-using Skoruba.Duende.IdentityServer.Admin.EntityFramework.Extensions.Common;
-using Skoruba.Duende.IdentityServer.Admin.EntityFramework.Identity.Repositories.Interfaces;
+using PrinceHarry.AuditLogging.Services;
+using PrinceHarry.Duende.IdentityServer.Admin.BusinessLogic.Identity.Dtos.Identity;
+using PrinceHarry.Duende.IdentityServer.Admin.BusinessLogic.Identity.Events.Identity;
+using PrinceHarry.Duende.IdentityServer.Admin.BusinessLogic.Identity.Resources;
+using PrinceHarry.Duende.IdentityServer.Admin.BusinessLogic.Identity.Services.Interfaces;
+using PrinceHarry.Duende.IdentityServer.Admin.BusinessLogic.Shared.Dtos.Common;
+using PrinceHarry.Duende.IdentityServer.Admin.BusinessLogic.Shared.ExceptionHandling;
+using PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Extensions.Common;
+using PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Identity.Repositories.Interfaces;
 
-namespace Skoruba.Duende.IdentityServer.Admin.BusinessLogic.Identity.Services
+namespace PrinceHarry.Duende.IdentityServer.Admin.BusinessLogic.Identity.Services
 {
     public class IdentityService<TUserDto, TRoleDto, TUser, TRole, TKey, TUserClaim, TUserRole,
         TUserLogin, TRoleClaim, TUserToken,

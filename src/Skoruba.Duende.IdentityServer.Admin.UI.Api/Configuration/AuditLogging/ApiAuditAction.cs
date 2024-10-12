@@ -3,9 +3,9 @@
 
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Http.Extensions;
-using Skoruba.AuditLogging.Events;
+using PrinceHarry.AuditLogging.Events;
 
-namespace Skoruba.Duende.IdentityServer.Admin.UI.Api.Configuration.AuditLogging
+namespace PrinceHarry.Duende.IdentityServer.Admin.UI.Api.Configuration.AuditLogging
 {
     public class ApiAuditAction : IAuditAction
     {

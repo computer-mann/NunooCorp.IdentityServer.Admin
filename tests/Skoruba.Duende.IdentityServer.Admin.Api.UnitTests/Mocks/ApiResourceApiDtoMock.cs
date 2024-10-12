@@ -5,10 +5,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using Bogus;
-using Skoruba.Duende.IdentityServer.Admin.EntityFramework.Constants;
-using Skoruba.Duende.IdentityServer.Admin.UI.Api.Dtos.ApiResources;
+using PrinceHarry.Duende.IdentityServer.Admin.EntityFramework.Constants;
+using PrinceHarry.Duende.IdentityServer.Admin.UI.Api.Dtos.ApiResources;
 
-namespace Skoruba.Duende.IdentityServer.Admin.Api.UnitTests.Mocks
+namespace PrinceHarry.Duende.IdentityServer.Admin.Api.UnitTests.Mocks
 {
     public static class ApiResourceApiDtoMock
     {

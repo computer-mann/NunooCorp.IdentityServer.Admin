@@ -2,9 +2,9 @@
 // Licensed under the Apache License, Version 2.0.
 
 using System;
-using Skoruba.AuditLogging.Events;
+using PrinceHarry.AuditLogging.Events;
 
-namespace Skoruba.Duende.IdentityServer.Admin.BusinessLogic.Events.Client
+namespace PrinceHarry.Duende.IdentityServer.Admin.BusinessLogic.Events.Client
 {
     public class ClientSecretRequestedEvent : AuditEvent
     {
